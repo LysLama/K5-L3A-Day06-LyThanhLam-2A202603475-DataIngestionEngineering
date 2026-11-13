@@ -2,17 +2,24 @@
   "corpus_title": "OpenStax World History Selected Chapters (Volume 1 Chapter 3 & Volume 2 Chapter 2)",
   "accessed_at": "2026-11-13",
   "license_or_permission": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0), ©2026 Rice University / OpenStax",
-  "page_counting_rule": "Count physical PDF pages containing main instructional prose, captions, and primary-source boxes within the selected chapters. Exclude frontmatter, table of contents, Key Terms, Section Summary, and Assessments pages.",
+  "page_counting_rule": "Count physical PDF pages containing main instructional prose, captions, and primary-source boxes within the selected chapters. Exclude frontmatter, table of contents, Key Terms, Section Summary, and Assessments pages. Note: starter/data/ commits trimmed excerpt PDFs containing only these 75 selected pages (World_History_Volume_1-Ch3_pp79-116.pdf = 38p, offset +78; World_History_Volume_2-Ch2_pp43-79.pdf = 37p, offset +42) to fit GitHub repository size limits under CC BY-NC-SA 4.0 while preserving canonical original page numbering (diff=0 vs full PDFs).",
   "total_content_pages": 75,
   "documents": [
     {
       "document_id": "wh_vol1",
       "title": "World History, Volume 1: to 1500 — Chapter 3: Early Civilizations and Urban Societies",
-      "source": "starter/data/World_History_Volume_1-WEB.pdf",
+      "source": "starter/data/World_History_Volume_1-Ch3_pp79-116.pdf",
+      "full_source_archive": "starter/data/World_History_Volume_1-WEB.pdf",
       "source_url": "https://openstax.org/details/books/world-history-volume-1",
-      "edition_or_timestamp": "Prince 16.2 PDF build (2026-04-20)",
+      "edition_or_timestamp": "Prince 16.2 PDF build (2026-04-20) — trimmed excerpt (pp. 79-116 of 791)",
       "license": "CC BY-NC-SA 4.0",
       "total_pdf_pages": 791,
+      "excerpt_pdf_pages": 38,
+      "excerpt_pdf_page_range": [
+        1,
+        38
+      ],
+      "original_page_offset": 78,
       "selected_page_range": [
         79,
         116
@@ -58,7 +65,7 @@
         ]
       ],
       "source_id": "wh_vol1",
-      "source_path_or_url": "starter/data/World_History_Volume_1-WEB.pdf (https://openstax.org/details/books/world-history-volume-1)",
+      "source_path_or_url": "starter/data/World_History_Volume_1-Ch3_pp79-116.pdf (excerpt of pp. 79-116 from https://openstax.org/details/books/world-history-volume-1)",
       "license_or_permission": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0), ©2026 Rice University / OpenStax",
       "accessed_at": "2026-11-13",
       "snapshot_or_version": "Prince 16.2 PDF build (2026-04-20)",
@@ -187,11 +194,18 @@
     {
       "document_id": "wh_vol2",
       "title": "World History, Volume 2: from 1400 — Chapter 2: Exchange in East Asia and the Indian Ocean",
-      "source": "starter/data/World_History_Volume_2-WEB.pdf",
+      "source": "starter/data/World_History_Volume_2-Ch2_pp43-79.pdf",
+      "full_source_archive": "starter/data/World_History_Volume_2-WEB.pdf",
       "source_url": "https://openstax.org/details/books/world-history-volume-2",
-      "edition_or_timestamp": "Prince 16.2 PDF build (2026-04-20)",
+      "edition_or_timestamp": "Prince 16.2 PDF build (2026-04-20) — trimmed excerpt (pp. 43-79 of 723)",
       "license": "CC BY-NC-SA 4.0",
       "total_pdf_pages": 723,
+      "excerpt_pdf_pages": 37,
+      "excerpt_pdf_page_range": [
+        1,
+        37
+      ],
+      "original_page_offset": 42,
       "selected_page_range": [
         43,
         79
@@ -232,7 +246,7 @@
         ]
       ],
       "source_id": "wh_vol2",
-      "source_path_or_url": "starter/data/World_History_Volume_2-WEB.pdf (https://openstax.org/details/books/world-history-volume-2)",
+      "source_path_or_url": "starter/data/World_History_Volume_2-Ch2_pp43-79.pdf (excerpt of pp. 43-79 from https://openstax.org/details/books/world-history-volume-2)",
       "license_or_permission": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0), ©2026 Rice University / OpenStax",
       "accessed_at": "2026-11-13",
       "snapshot_or_version": "Prince 16.2 PDF build (2026-04-20)",

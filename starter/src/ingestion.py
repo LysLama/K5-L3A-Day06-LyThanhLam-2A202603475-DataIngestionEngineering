@@ -73,6 +73,7 @@ def load_pdf(
     base_metadata: dict[str, Any] | None = None,
     section_ranges: list[tuple[int, int, str]] | None = None,
     error_log: list[dict[str, Any]] | None = None,
+    page_offset: int = 0,
 ) -> list[DocumentPage]:
     """Extract and normalize physical PDF pages, recording empty or unreadable pages."""
     if not path.exists():
@@ -86,6 +87,7 @@ def load_pdf(
 
     pages: list[DocumentPage] = []
     for page_num in range(start_page, last_page + 1):
+        canonical_page = page_num + page_offset
         try:
             raw_text = reader.pages[page_num - 1].extract_text(extraction_mode="layout") or ""
         except Exception as exc:
@@ -94,7 +96,7 @@ def load_pdf(
                     {
                         "document_id": document_id,
                         "source": source,
-                        "page": page_num,
+                        "page": canonical_page,
                         "error": f"extract_failed: {exc}",
                     }
                 )
@@ -107,14 +109,14 @@ def load_pdf(
                     {
                         "document_id": document_id,
                         "source": source,
-                        "page": page_num,
+                        "page": canonical_page,
                         "error": "empty_text_after_normalization",
                     }
                 )
             continue
 
         meta = dict(base_metadata or {})
-        section = _resolve_section(page_num, section_ranges)
+        section = _resolve_section(canonical_page, section_ranges)
         if section is not None:
             meta["section"] = section
 
@@ -122,7 +124,7 @@ def load_pdf(
             DocumentPage(
                 document_id=document_id,
                 source=source,
-                page=page_num,
+                page=canonical_page,
                 text=clean_text,
                 metadata=meta,
             )

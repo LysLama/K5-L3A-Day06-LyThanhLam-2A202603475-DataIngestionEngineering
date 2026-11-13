@@ -6,11 +6,11 @@
 ## 1. Dữ liệu và pipeline
 
 - **Chủ đề, nguồn/quyền, số trang và quy tắc tính trang:**
-  - Bộ tài liệu gồm 2 giáo trình lịch sử thế giới mở của **OpenStax (Rice University, ©2026)**, giấy phép **CC BY-NC-SA 4.0**, lưu tại `starter/data/` và khai báo đầy đủ trong [data/manifest.json](../../data/manifest.json):
-    1. `wh_vol1` — *World History, Volume 1: to 1500*, **Chapter 3: Early Civilizations and Urban Societies**, chọn **38 trang nội dung** (trang PDF vật lý `79–116`; tổng file 791 trang).
-    2. `wh_vol2` — *World History, Volume 2: from 1400*, **Chapter 2: Exchange in East Asia and the Indian Ocean**, chọn **37 trang nội dung** (trang PDF vật lý `43–79`; tổng file 723 trang).
+  - Bộ tài liệu gồm 2 giáo trình lịch sử thế giới mở của **OpenStax (Rice University, ©2026)**, giấy phép **CC BY-NC-SA 4.0** (cho phép trích đoạn có ghi nguồn & giữ nguyên giấy phép), lưu trực tiếp bản cắt đúng phạm vi sử dụng tại `starter/data/` và khai báo đầy đủ trong [data/manifest.json](../../data/manifest.json):
+    1. `wh_vol1` ([`World_History_Volume_1-Ch3_pp79-116.pdf`](../../starter/data/World_History_Volume_1-Ch3_pp79-116.pdf), `14,21 MB`) — trích từ *World History, Volume 1: to 1500*, **Chapter 3: Early Civilizations and Urban Societies**, **38 trang nội dung** (trang PDF gốc `79–116` trên tổng `791` trang; đánh số lại `1–38` trong bản cắt với `original_page_offset = 78`).
+    2. `wh_vol2` ([`World_History_Volume_2-Ch2_pp43-79.pdf`](../../starter/data/World_History_Volume_2-Ch2_pp43-79.pdf), `5,59 MB`) — trích từ *World History, Volume 2: from 1400*, **Chapter 2: Exchange in East Asia and the Indian Ocean**, **37 trang nội dung** (trang PDF gốc `43–79` trên tổng `723` trang; đánh số lại `1–37` trong bản cắt với `original_page_offset = 42`).
   - **Tổng cộng:** **75 trang nội dung hợp lệ** (`205.657` ký tự sau chuẩn hóa: `96.795` ký tự từ `wh_vol1` và `108.862` ký tự từ `wh_vol2`).
-  - **Quy tắc tính trang:** Chỉ tính trang PDF vật lý chứa nội dung học thuật chính (văn bản chính, chú thích hình, hộp tư liệu gốc). Loại bỏ bìa, mục lục, lời nói đầu và các trang cuối chương (`Key Terms`, `Section Summary`, `Assessments`: tr. `117–121` ở Vol 1 và tr. `80–84` ở Vol 2).
+  - **Quy tắc tính trang:** Chỉ giữ và tính các trang PDF vật lý chứa nội dung học thuật chính (văn bản chính, chú thích hình, hộp tư liệu gốc). Cắt bỏ bìa, mục lục, lời nói đầu, các chương khác và các trang cuối chương (`Key Terms`, `Section Summary`, `Assessments`: tr. `117–121` ở Vol 1 và tr. `80–84` ở Vol 2) để tổng dung lượng PDF còn `19,80 MB` (đạt ngưỡng GitHub), đồng thời giữ nguyên 100% nội dung text và số trang chuẩn gốc (`79–116`, `43–79`).
 - **Chuẩn hóa, lỗi và giới hạn:**
   - Trích xuất bằng `pypdf 6.19.0` với `extraction_mode="layout"` để bảo toàn ranh giới đoạn `\n\n` và tránh lỗi dính chữ/tách chữ (`LINK TO LEARNING`).
   - Hàm `normalize_text` trong [starter/src/ingestion.py](../../starter/src/ingestion.py) chuẩn hóa Unicode `NFC`, loại bỏ header/footer lặp lại của OpenStax (`Access for free at openstax.org` và dòng tiêu đề số trang/chương), ghép dòng bị ngắt trong cùng đoạn (giữ nguyên gạch nối thật như `self-sufficient`, `Mohenjo-Daro`), đồng thời giữ tách dòng cho gạch đầu dòng `•`.
@@ -55,14 +55,14 @@
 
 | Strategy | Split |   Hit@1 (n/N) | Evidence Hit@3 (n/N) | Chunk count | Thời gian index / search |                   Chi phí |
 | -------- | ----- | ------------: | -------------------: | ----------: | ------------------------: | -------------------------: |
-| A        | dev   |  9/16 (56.3%) |        13/16 (81.3%) |         487 |          20.915s / 0.726s |                  ~\$0.0011 |
-| A        | test  |   3/6 (50.0%) |          3/6 (50.0%) |         487 |          *(như trên)* |           *(như trên)* |
-| B        | dev   | 10/16 (62.5%) |        15/16 (93.8%) |         322 |          11.187s / 0.742s |                  ~\$0.0007 |
-| B        | test  |   5/6 (83.3%) |         6/6 (100.0%) |         322 |          *(như trên)* |           *(như trên)* |
-| C        | dev   | 10/16 (62.5%) |        15/16 (93.8%) |         322 |         11.204s* / 0.612s | \$0* (dùng lại vector B) |
-| C        | test  |   5/6 (83.3%) |         6/6 (100.0%) |         322 |          *(như trên)* |           *(như trên)* |
+| A        | dev   |  9/16 (56.3%) |        13/16 (81.3%) |         487 |          20.068s / 0.656s |                  ~\$0.0011 |
+| A        | test  |   3/6 (50.0%) |          3/6 (50.0%) |         487 |          20.068s / 0.656s |                  ~\$0.0011 |
+| B        | dev   | 10/16 (62.5%) |        15/16 (93.8%) |         322 |          12.091s / 0.508s |                  ~\$0.0007 |
+| B        | test  |   5/6 (83.3%) |         6/6 (100.0%) |         322 |          12.091s / 0.508s |                  ~\$0.0007 |
+| C        | dev   | 10/16 (62.5%) |        15/16 (93.8%) |         322 |         12.082s* / 0.787s | \$0* (dùng lại vector B) |
+| C        | test  |   5/6 (83.3%) |         6/6 (100.0%) |         322 |         12.082s* / 0.787s |                        \$0 |
 
-*\*Ghi chú: Tổng chi phí thực tế toàn bộ phiên chạy (A + B + 22 queries) là `$0.00185` cho `92.494` tokens (`5.707s` đọc & chuẩn hóa 75 trang PDF).*
+*\*Ghi chú: Tổng chi phí thực tế toàn bộ phiên chạy (A + B + 22 queries) là `$0.00185` cho `92.494` tokens (`1.005s` đọc & chuẩn hóa 75 trang từ 2 file PDF đã cắt).*
 
 ### Bảng 2: Đánh giá chất lượng thủ công (Coherence, Metadata, Grounding)
 
@@ -83,10 +83,10 @@
 ## 4. Phân tích và kết luận
 
 - **So sánh A → B (tác động của Chunking):**
-  - Chuyển từ cắt cố định 500 ký tự (A) sang gom đoạn tối đa 900 ký tự (B) giúp **giảm 33.9% số chunk** (`487 → 322`), giảm gần một nửa thời gian embed (`19.84s → 10.48s`), đồng thời tăng mạnh **Evidence Hit@3** từ `13/16` lên `15/16` trên `dev` và từ `3/6` lên `6/6` trên `test`, tăng **Coherence** từ `0.50/2` lên `1.80/2`, và nâng **Grounding** trên `test` từ `1.33/2` lên `2.00/2`.
+  - Chuyển từ cắt cố định 500 ký tự (A) sang gom đoạn tối đa 900 ký tự (B) giúp **giảm 33.9% số chunk** (`487 → 322`), giảm ~40% thời gian embed (`19.699s → 11.833s`), đồng thời tăng mạnh **Evidence Hit@3** từ `13/16` lên `15/16` trên `dev` và từ `3/6` lên `6/6` trên `test`, tăng **Coherence** từ `0.50/2` lên `1.80/2`, và nâng **Grounding** trên `test` từ `1.33/2` lên `2.00/2`.
   - Nguyên nhân chính: A liên tục cắt ngang giữa từ và giữa câu với overlap chỉ 50 ký tự, làm đứt đoạn bằng chứng hoặc tách mất chủ ngữ của câu.
 - **So sánh B → C (tác động của Metadata Filtering):**
-  - C tuân thủ filter `5/5` (`100%`) và giảm thời gian search trên 22 câu từ `0.742s` xuống `0.612s` (`-17.5%`).
+  - C tuân thủ filter `5/5` (`100%`) nhờ áp dụng điều kiện `WHERE` trong PostgreSQL trước khi xếp hạng khoảng cách cosine (`search_seconds`: `0.787s` ở C vs `0.508s` ở B trên 22 câu — chênh lệch vài phần trăm giây do dao động kết nối Docker local khi corpus nhỏ).
   - Trên bộ 22 câu này, `Hit@1` và `Evidence Hit@3` của B và C bằng nhau (`10/16` dev, `5/6` test) vì các câu hỏi có filter đã chứa nhiều từ khóa đặc trưng của từng vùng/triều đại (`Hammurabi`, `Djoser`, `shahbandar`, `Khufu`, `Ming China`), nên tìm kiếm vector của B tự nhiên cũng khớp đúng phạm vi (`5/5`). Ngược lại, ở các câu không khai báo filter nhưng dùng khái niệm tổng quát như `q19` (hỏi về thương mại và thuế ở nền văn minh sông Ấn), không có bộ lọc khiến chunk `wh_vol1_p0095_para_005` thuộc mục `3.2 Ancient Mesopotamia` (nói về thu thuế nông sản) xếp ở `rank 1` trên chunk đúng thuộc `3.4 The Indus Valley Civilization` (`rank 2`, tr. 115). Đây là minh họa trực tiếp cho giá trị của **C** trong việc chặn nhiễu xuyên section/volume khi người dùng hỏi theo ngữ cảnh tổng quát.
 - **Hai ví dụ lỗi điển hình từ trace:**
   1. **Lỗi cắt đứt bằng chứng ở Strategy A — Câu `q17` (`test`, `wh_vol1` tr. 101):** Câu hỏi về lý do người Ai Cập có thế giới quan trật tự hơn Lưỡng Hà. A truy xuất đúng trang 101 ở `rank 1` (`wh_vol1_p0101_fixed_004`, score `0.68938`) và `rank 3` (`wh_vol1_p0101_fixed_003`, score `0.551182`), nhưng câu văn đối chiếu sông Tigris–Euphrates và sông Nile bị cắt làm đôi giữa hai chunk (`"In lat"` / `"balance. In contrast..."`), khiến cả top-3 đều trượt `Evidence Hit@3` và Grounding chỉ đạt `1/2`. Ở B/C, `wh_vol1_p0101_para_003` giữ trọn đoạn và đạt `Hit@1`. *(Tương tự ở `q18`, `q14`, `q15`, `q22` của A).*
@@ -98,7 +98,7 @@
   - **Điều kiện áp dụng:** Phù hợp khi tài liệu có ranh giới đoạn văn rõ ràng (giáo trình, tài liệu kỹ thuật, chính sách) và giao diện/người dùng có thể cung cấp bộ lọc (`volume`, `section`) tin cậy trước khi truy xuất; khi không có filter rõ ràng, C tự động lùi về hành vi của B mà không làm hẹp tập ứng viên ngoài ý muốn.
 - **Hạn chế:**
   - **Dữ liệu, nhãn và tập test nhỏ:** Tập `test` chỉ có `6` câu nên sai số lấy mẫu lớn (`100%` trên B/C chỉ mang tính minh họa cho corpus này, không suy rộng tổng quát); chưa tách biệt hoàn toàn nhiễu caption `FIGURE` hoặc hộp `LINK TO LEARNING`; cùng tác giả vừa viết câu hỏi vừa tự chấm tay.
-  - **Đo thời gian & chi phí:** Thời gian `embed_seconds` (`19.84s` / `10.482s`) và `search_seconds` (`0.612s–0.742s`) chỉ đo trong 1 lần chạy đơn lẻ qua API OpenRouter và local Docker PostgreSQL (chịu ảnh hưởng dao động mạng, độ trễ cold-start và kích thước corpus nhỏ `322–487` chunks); chi phí `$0.00185` là ước lượng từ `usage.total_tokens` (`92.494` tokens × `$0.02/1M`) theo bảng giá công bố của OpenRouter cho `openai/text-embedding-3-small`.
+  - **Đo thời gian & chi phí:** Thời gian `embed_seconds` (`19.699s` / `11.833s`) và `search_seconds` (`0.508s–0.787s` trên 22 câu) chỉ đo trong 1 lần chạy đơn lẻ qua API OpenRouter và local Docker PostgreSQL (chịu ảnh hưởng dao động mạng, độ trễ cold-start và kích thước corpus nhỏ `322–487` chunks nên exact scan không chênh lệch tốc độ rõ rệt giữa B và C); chi phí `$0.00185` là ước lượng từ `usage.total_tokens` (`92.494` tokens × `$0.02/1M`) theo bảng giá công bố của OpenRouter cho `openai/text-embedding-3-small`.
 - **Sử dụng AI và cách kiểm tra (theo `RULES.md`):**
   - **Công cụ sử dụng:** Dùng trợ lý lập trình AI hỗ trợ rà soát kiến trúc pipeline `starter/src/`, viết script kiểm tra trích xuất PDF, đồng bộ manifest và cấu trúc báo cáo.
   - **Cách kiểm tra độc lập:** Toàn bộ số liệu trong báo cáo được sinh trực tiếp từ lần chạy thực tế `python -m src.run` với PostgreSQL `16.16` + pgvector `0.8.7` và OpenRouter `openai/text-embedding-3-small`; `22/22` `evidence_quote` được đối chiếu nguyên văn với văn bản chuẩn hóa trên đúng trang PDF nguồn; các mẫu coherence (`n=10`), metadata (`18` bản ghi test/chiến lược) và grounding (`6` câu test/chiến lược) được đọc kiểm tra trực tiếp trên chunk text và trace tại [manual_audit_completed.json](../../results/manual_audit_completed.json).

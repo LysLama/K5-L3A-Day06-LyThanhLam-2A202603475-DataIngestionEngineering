@@ -48,7 +48,7 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 
 ## Triển khai & cách chạy bài nộp
 
-- **Corpus & manifest**: Mô tả chi tiết tại [data/manifest.json](data/manifest.json) (75 trang nội dung từ OpenStax *World History, Volume 1* Chương 3 & *World History, Volume 2* Chương 2, CC BY-NC-SA 4.0). Hai file PDF gốc được đặt trong `starter/data/` (`World_History_Volume_1-WEB.pdf`, `World_History_Volume_2-WEB.pdf`).
+- **Corpus & manifest**: Mô tả chi tiết tại [data/manifest.json](data/manifest.json) (75 trang nội dung từ OpenStax *World History, Volume 1* Chương 3 & *World History, Volume 2* Chương 2, CC BY-NC-SA 4.0). Hai file PDF cắt đúng phần sử dụng được lưu trực tiếp trong `starter/data/` (`World_History_Volume_1-Ch3_pp79-116.pdf` — 14,21 MB; `World_History_Volume_2-Ch2_pp43-79.pdf` — 5,59 MB) và tự động ánh xạ về số trang chuẩn gốc thông qua `original_page_offset` trong manifest.
 - **Môi trường & cấu hình**: Khởi động PostgreSQL + pgvector trong `starter/`, tạo `starter/.env` từ `starter/.env.example` và điền API key (`OPENROUTER_API_KEY` cho fallback `openai/text-embedding-3-small`, 1536 chiều; xem nhật ký fallback tại [starter/results/provider_fallback_log.json](starter/results/provider_fallback_log.json)).
 - **Chạy toàn bộ pipeline & benchmark**:
   ```bash

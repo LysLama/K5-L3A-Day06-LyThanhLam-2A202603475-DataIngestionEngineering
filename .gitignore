@@ -9,5 +9,5 @@ __pycache__/
 .pytest_cache/
 *.sqlite
 
-# Large source PDFs (>100 MB GitHub limit); download URLs are documented in data/manifest.json
-starter/data/*.pdf
+# Full un-trimmed OpenStax PDFs (>100 MB GitHub limit); trimmed excerpt PDFs used by the pipeline are tracked in starter/data/
+starter/data/*-WEB.pdf

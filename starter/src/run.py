@@ -174,7 +174,8 @@ def main() -> None:
 
     for doc in manifest["documents"]:
         pdf_path = repo_root / doc["source"]
-        s_page, e_page = doc["selected_page_range"]
+        s_page, e_page = doc.get("excerpt_pdf_page_range", doc["selected_page_range"])
+        page_offset = int(doc.get("original_page_offset", 0))
         sec_ranges = [(int(a), int(b), str(lbl)) for a, b, lbl in doc["section_ranges"]]
         doc_pages = load_pdf(
             path=pdf_path,
@@ -185,6 +186,7 @@ def main() -> None:
             base_metadata=doc["metadata"],
             section_ranges=sec_ranges,
             error_log=error_log,
+            page_offset=page_offset,
         )
         pages.extend(doc_pages)
         doc_stats.append(

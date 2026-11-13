@@ -1,6 +1,6 @@
 {
   "corpus_pages_loaded": 75,
-  "ingestion_seconds": 5.707,
+  "ingestion_seconds": 1.005,
   "documents": [
     {
       "document_id": "wh_vol1",
@@ -65,23 +65,23 @@
   },
   "timings_by_strategy": {
     "A": {
-      "embed_seconds": 19.84,
-      "db_upsert_seconds": 1.075,
-      "total_index_seconds": 20.915,
-      "search_seconds": 0.726
+      "embed_seconds": 19.699,
+      "db_upsert_seconds": 0.368,
+      "total_index_seconds": 20.068,
+      "search_seconds": 0.656
     },
     "B": {
-      "embed_seconds": 10.482,
-      "db_upsert_seconds": 0.705,
-      "total_index_seconds": 11.187,
-      "search_seconds": 0.742
+      "embed_seconds": 11.833,
+      "db_upsert_seconds": 0.258,
+      "total_index_seconds": 12.091,
+      "search_seconds": 0.508
     },
     "C": {
-      "embed_seconds": 10.482,
-      "db_upsert_seconds": 0.722,
-      "total_index_seconds": 11.204,
+      "embed_seconds": 11.833,
+      "db_upsert_seconds": 0.249,
+      "total_index_seconds": 12.082,
       "note": "Reuses Strategy B embeddings (identical chunks); stored under strategy='C' in PostgreSQL.",
-      "search_seconds": 0.612
+      "search_seconds": 0.787
     }
   }
 }
