@@ -8,3 +8,6 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# Large source PDFs (>100 MB GitHub limit); download URLs are documented in data/manifest.json
+starter/data/*.pdf

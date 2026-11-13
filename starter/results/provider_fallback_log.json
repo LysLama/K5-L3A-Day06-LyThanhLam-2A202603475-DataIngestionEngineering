@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-11-13T10:49:22+07:00",
+  "initial_provider": "gemini",
+  "initial_model": "gemini-embedding-001",
+  "error": "HTTP 429 RESOURCE_EXHAUSTED: You exceeded your current quota, please check your plan and billing details (rate-limits).",
+  "failed_stage": "embed_documents for Strategy A (first batchEmbedContents batch)",
+  "fallback_provider": "openrouter",
+  "fallback_model": "openai/text-embedding-3-small",
+  "fallback_dimensions": 1536,
+  "remediation": "Switched all strategies (A, B, C) and all 22 benchmark queries to OpenRouter openai/text-embedding-3-small (1536 dims) so the entire benchmark ran on a single consistent model."
+}

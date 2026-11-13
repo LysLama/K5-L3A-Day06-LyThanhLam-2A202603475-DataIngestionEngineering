@@ -1,0 +1,1843 @@
+{
+  "annotator": "Lý Thanh Lâm (tác giả bài làm — lưu ý thiên lệch tự chấm)",
+  "coherence_10_locations": [
+    {
+      "location": "wh_vol1 p.79 (3.0 Introduction)",
+      "document_id": "wh_vol1",
+      "page": 79,
+      "section": "3.0 Introduction",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol1_p0079_fixed_001",
+          "chars": 500,
+          "text": "ation of work \"Standard of Ur\" by Unknown/Wikimedia Commons, Public Domain) CHAPTER OUTLINE 3.1 Early Civilizations 3.2 Ancient Mesopotamia 3.3 Ancient Egypt 3.4 The Indus Valley Civilization\n\nINTRODUCTION The land of Sumer, in today’s southern Iraq, was home to some of the largest early cities in human history. In one of these ancient settlements, Ur, a beautiful wooden box was laid in a royal tomb in about 2550 BCE (Figure 3.1). It measures roughly nine by twenty inches (a little bigger than a",
+          "score": 0,
+          "score_0_to_2": 0,
+          "rationale": "Bị cắt giữa từ ở đầu ('ation of work...') và giữa cụm danh từ ở cuối ('a little bigger than a'), trộn lẫn chú thích ảnh và mục lục."
+        },
+        "B": {
+          "chunk_id": "wh_vol1_p0079_para_001",
+          "chars": 725,
+          "text": "INTRODUCTION The land of Sumer, in today’s southern Iraq, was home to some of the largest early cities in human history. In one of these ancient settlements, Ur, a beautiful wooden box was laid in a royal tomb in about 2550 BCE (Figure 3.1). It measures roughly nine by twenty inches (a little bigger than a laptop) and is inlaid with elaborate mosaic figures and borders composed of bits of red limestone, lapis lazuli, and marine shell. This kind of specialized craftsmanship was a hallmark of societies that no longer depended on hunting and gathering for food but rather produced crops capable of sustaining large populations. In turn, they gained enough time and prosperity for some members to focus on artisanal crafts.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giữ trọn đoạn mở đầu INTRODUCTION về hộp khảm ở Ur."
+        },
+        "C": {
+          "chunk_id": "wh_vol1_p0079_para_001",
+          "chars": 725,
+          "text": "INTRODUCTION The land of Sumer, in today’s southern Iraq, was home to some of the largest early cities in human history. In one of these ancient settlements, Ur, a beautiful wooden box was laid in a royal tomb in about 2550 BCE (Figure 3.1). It measures roughly nine by twenty inches (a little bigger than a laptop) and is inlaid with elaborate mosaic figures and borders composed of bits of red limestone, lapis lazuli, and marine shell. This kind of specialized craftsmanship was a hallmark of societies that no longer depended on hunting and gathering for food but rather produced crops capable of sustaining large populations. In turn, they gained enough time and prosperity for some members to focus on artisanal crafts.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol1 p.80 (3.0 Introduction)",
+      "document_id": "wh_vol1",
+      "page": 80,
+      "section": "3.0 Introduction",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol1_p0080_fixed_001",
+          "chars": 500,
+          "text": "ication of work \"Sumerian Cuneiform Clay Tablet\" by Gary Todd/Flickr, CC0 1.0; credit \"3000 BCE, Dynastic Rule\": \"La palette de Narmer\" by “Jean88”/Wikimedia Commons, CC0 1.0; credit \"3000 BCE, Indus Valley\": modification of work \"Harappan (Indus Valley) Pottery\" by Gary Todd/Flickr, CC0 1.0; credit \"2500 BCE, Giza\": \"All Gizah Pyramids\" by Ricardo Liberato/Wikimedia Commons, CC BY 2.5; credit \"2500 BCE, Stonehenge\": \"Stonehenge\" by “thegarethwiscombe”/Flickr, CC BY 2.0; credit \"1750 BCE\": \"Prol",
+          "score": 0,
+          "score_0_to_2": 0,
+          "rationale": "Chỉ chứa chuỗi credit ảnh bị cắt giữa từ ở đầu ('ication of work...') và cuối ('\"Prol')."
+        },
+        "B": {
+          "chunk_id": "wh_vol1_p0080_para_001",
+          "chars": 682,
+          "text": "FIGURE 3.2 Timeline: Early Civilizations and Urban Societies. (credit \"3000 BCE, cuneiform\": modification of work \"Sumerian Cuneiform Clay Tablet\" by Gary Todd/Flickr, CC0 1.0; credit \"3000 BCE, Dynastic Rule\": \"La palette de Narmer\" by “Jean88”/Wikimedia Commons, CC0 1.0; credit \"3000 BCE, Indus Valley\": modification of work \"Harappan (Indus Valley) Pottery\" by Gary Todd/Flickr, CC0 1.0; credit \"2500 BCE, Giza\": \"All Gizah Pyramids\" by Ricardo Liberato/Wikimedia Commons, CC BY 2.5; credit \"2500 BCE, Stonehenge\": \"Stonehenge\" by “thegarethwiscombe”/Flickr, CC BY 2.0; credit \"1750 BCE\": \"Prologue of the code of Hammurabi\" by Marie-Lan Nguyen/Wikimedia Commons, Public Domain)",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Giữ trọn khối caption FIGURE 3.2 Timeline không bị cắt, nhưng nội dung chính của timeline nằm trong ảnh nên chỉ hiểu được một phần ngữ cảnh."
+        },
+        "C": {
+          "chunk_id": "wh_vol1_p0080_para_001",
+          "chars": 682,
+          "text": "FIGURE 3.2 Timeline: Early Civilizations and Urban Societies. (credit \"3000 BCE, cuneiform\": modification of work \"Sumerian Cuneiform Clay Tablet\" by Gary Todd/Flickr, CC0 1.0; credit \"3000 BCE, Dynastic Rule\": \"La palette de Narmer\" by “Jean88”/Wikimedia Commons, CC0 1.0; credit \"3000 BCE, Indus Valley\": modification of work \"Harappan (Indus Valley) Pottery\" by Gary Todd/Flickr, CC0 1.0; credit \"2500 BCE, Giza\": \"All Gizah Pyramids\" by Ricardo Liberato/Wikimedia Commons, CC BY 2.5; credit \"2500 BCE, Stonehenge\": \"Stonehenge\" by “thegarethwiscombe”/Flickr, CC BY 2.0; credit \"1750 BCE\": \"Prologue of the code of Hammurabi\" by Marie-Lan Nguyen/Wikimedia Commons, Public Domain)",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol1 p.81 (3.1 Early Civilizations)",
+      "document_id": "wh_vol1",
+      "page": 81,
+      "section": "3.1 Early Civilizations",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol1_p0081_fixed_001",
+          "chars": 500,
+          "text": "arge rivers, were marked by an agriculturally sustained population that remained settled in one area and could number in the tens of thousands. The stability of the population allowed for the development of a discernible culture, which consists of all the different ways a distinct group of people interact with one another and their environment and pass these ways down from generation to generation over time. This is not to say that earlier groups of people lacked social identities. But there wer",
+          "score": 0,
+          "score_0_to_2": 0,
+          "rationale": "Mất chủ thể câu đầu ('arge rivers, were marked by...') và bị cắt giữa từ ở cuối ('there wer')."
+        },
+        "B": {
+          "chunk_id": "wh_vol1_p0081_para_001",
+          "chars": 627,
+          "text": "Early civilizations, most of which arose along large rivers, were marked by an agriculturally sustained population that remained settled in one area and could number in the tens of thousands. The stability of the population allowed for the development of a discernible culture, which consists of all the different ways a distinct group of people interact with one another and their environment and pass these ways down from generation to generation over time. This is not to say that earlier groups of people lacked social identities. But there were important differences between them and the early civilizations that followed.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giữ trọn đoạn định nghĩa đặc trưng nền văn minh sơ khai và khái niệm văn hóa."
+        },
+        "C": {
+          "chunk_id": "wh_vol1_p0081_para_001",
+          "chars": 627,
+          "text": "Early civilizations, most of which arose along large rivers, were marked by an agriculturally sustained population that remained settled in one area and could number in the tens of thousands. The stability of the population allowed for the development of a discernible culture, which consists of all the different ways a distinct group of people interact with one another and their environment and pass these ways down from generation to generation over time. This is not to say that earlier groups of people lacked social identities. But there were important differences between them and the early civilizations that followed.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol1 p.82 (3.1 Early Civilizations)",
+      "document_id": "wh_vol1",
+      "page": 82,
+      "section": "3.1 Early Civilizations",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol1_p0082_fixed_001",
+          "chars": 500,
+          "text": "vely small, concentrated area and worked to produce a surplus of food and other materials, which they distributed through a system of exchange. For farming communities, this food surplus meant family size grew to six or seven children and caused the global human population to skyrocket. Population growth rooted in agricultural production led to larger cities, in which the food produced by farmers in outlying rural areas was distributed among the population of the urban center, where food was not",
+          "score": 0,
+          "score_0_to_2": 0,
+          "rationale": "Mất chủ ngữ ở đầu ('vely small, concentrated area...') và bị cắt giữa câu ở cuối ('where food was not')."
+        },
+        "B": {
+          "chunk_id": "wh_vol1_p0082_para_001",
+          "chars": 817,
+          "text": "Early civilizations, by contrast, arose where large numbers of people lived in a relatively small, concentrated area and worked to produce a surplus of food and other materials, which they distributed through a system of exchange. For farming communities, this food surplus meant family size grew to six or seven children and caused the global human population to skyrocket. Population growth rooted in agricultural production led to larger cities, in which the food produced by farmers in outlying rural areas was distributed among the population of the urban center, where food was not produced. This system of specialization was a key feature of early civilizations and what distinguished them from previous societies. Individuals performed specific tasks such as farming, writing, or performing religious rituals.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giữ trọn ý về thặng dư nông nghiệp, đô thị hóa và chuyên môn hóa lao động."
+        },
+        "C": {
+          "chunk_id": "wh_vol1_p0082_para_001",
+          "chars": 817,
+          "text": "Early civilizations, by contrast, arose where large numbers of people lived in a relatively small, concentrated area and worked to produce a surplus of food and other materials, which they distributed through a system of exchange. For farming communities, this food surplus meant family size grew to six or seven children and caused the global human population to skyrocket. Population growth rooted in agricultural production led to larger cities, in which the food produced by farmers in outlying rural areas was distributed among the population of the urban center, where food was not produced. This system of specialization was a key feature of early civilizations and what distinguished them from previous societies. Individuals performed specific tasks such as farming, writing, or performing religious rituals.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol1 p.83 (3.1 Early Civilizations)",
+      "document_id": "wh_vol1",
+      "page": 83,
+      "section": "3.1 Early Civilizations",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol1_p0083_fixed_001",
+          "chars": 499,
+          "text": "t in Louisiana in the United States. Listen to this TEDx Talk lecture by the archaeologist who excavated at Göbekli Tepe (https://openstax.org/l/77gobeklitepe) to find out more about the site. You can learn more about the Poverty Point culture by exploring the Poverty Point website (https://openstax.org/l/77PovertyPoint). Look especially at “History and Artifacts.”\n\nNeolithic settlements depended upon the transition to agricultural production to sustain their populations. Such developments were",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Khối LINK TO LEARNING ở giữa hiểu được, nhưng câu đầu bị cắt ('t in Louisiana...') và câu cuối bị cắt dở ('Such developments were')."
+        },
+        "B": {
+          "chunk_id": "wh_vol1_p0083_para_001",
+          "chars": 856,
+          "text": "Neolithic settlements depended upon the transition to agricultural production to sustain their populations. Such developments were also accompanied by increasing complexity in other areas of life, such as religion. An agricultural surplus enabled religious specialists to devote time to performing bull sacrifices at Çatalhöyük, for example, and freed artisans to hone their skills to create the frescoes that decorated the interior space where these sacrifices occurred. Some form of government must have organized the labor and materials necessary to construct the walls and tower at Jericho, which may have served as an observatory to mark the passage of the solar year. In both Jericho and Çatalhöyük, a shared belief system, or unity behind a leader, must have inspired the inhabitants to labor in the fields and distribute their agricultural surplus.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giữ trọn đoạn phân tích vai trò nông nghiệp đối với tôn giáo ở Çatalhöyük và Jericho."
+        },
+        "C": {
+          "chunk_id": "wh_vol1_p0083_para_001",
+          "chars": 856,
+          "text": "Neolithic settlements depended upon the transition to agricultural production to sustain their populations. Such developments were also accompanied by increasing complexity in other areas of life, such as religion. An agricultural surplus enabled religious specialists to devote time to performing bull sacrifices at Çatalhöyük, for example, and freed artisans to hone their skills to create the frescoes that decorated the interior space where these sacrifices occurred. Some form of government must have organized the labor and materials necessary to construct the walls and tower at Jericho, which may have served as an observatory to mark the passage of the solar year. In both Jericho and Çatalhöyük, a shared belief system, or unity behind a leader, must have inspired the inhabitants to labor in the fields and distribute their agricultural surplus.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol2 p.43 (2.0 Introduction)",
+      "document_id": "wh_vol2",
+      "page": 43,
+      "section": "2.0 Introduction",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol2_p0043_fixed_001",
+          "chars": 500,
+          "text": ", Public Domain; credit right: modification of work “Saucer with motifs celebrating prosperity, China” by Asian Art Museum of San Francisco/Wikimedia Commons, CC0 1.0) CHAPTER OUTLINE 2.1 India and International Connections 2.2 The Malacca Sultanate 2.3 Exchange in East Asia\n\nINTRODUCTION The sixteenth century was a time of exploration and the beginning of global ocean trade. When European nations such as Spain, Portugal, the Netherlands, England, and France were just setting out on voyages of e",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Ý chính của câu mở đầu INTRODUCTION còn đọc được, nhưng đầu chunk dính credit bị cắt và cuối bị cắt giữa từ ('voyages of e')."
+        },
+        "B": {
+          "chunk_id": "wh_vol2_p0043_para_001",
+          "chars": 697,
+          "text": "INTRODUCTION The sixteenth century was a time of exploration and the beginning of global ocean trade. When European nations such as Spain, Portugal, the Netherlands, England, and France were just setting out on voyages of exploration and beginning to forge maritime trade networks, a thriving oceangoing commerce was already being carried on in the Indian Ocean. From the coastal provinces of India to the Straits of Malacca and the ports of Southeast Asia, China, and Japan and back again, raw materials of great value and manufactured products of great beauty traveled (Figure 2.1). Along with them went religious beliefs, philosophies, technological developments, and other cultural influences.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giữ trọn đoạn INTRODUCTION về thương mại Ấn Độ Dương thế kỷ XVI."
+        },
+        "C": {
+          "chunk_id": "wh_vol2_p0043_para_001",
+          "chars": 697,
+          "text": "INTRODUCTION The sixteenth century was a time of exploration and the beginning of global ocean trade. When European nations such as Spain, Portugal, the Netherlands, England, and France were just setting out on voyages of exploration and beginning to forge maritime trade networks, a thriving oceangoing commerce was already being carried on in the Indian Ocean. From the coastal provinces of India to the Straits of Malacca and the ports of Southeast Asia, China, and Japan and back again, raw materials of great value and manufactured products of great beauty traveled (Figure 2.1). Along with them went religious beliefs, philosophies, technological developments, and other cultural influences.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol2 p.44 (2.0 Introduction)",
+      "document_id": "wh_vol2",
+      "page": 44,
+      "section": "2.0 Introduction",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol2_p0044_fixed_001",
+          "chars": 208,
+          "text": "of work “Sekigahara Kassen Byōbu-z” by The City of Gifu Museum of History/Wikimedia Commons, Public Domain; credit “1653 CE”: modification of work “Taj Mahal” by David Castor/Wikimedia Commons, Public Domain)",
+          "score": 0,
+          "score_0_to_2": 0,
+          "rationale": "Chỉ là phần đuôi credit ảnh ('of work “Sekigahara...'), thiếu tiêu đề FIGURE 2.2 và chủ thể."
+        },
+        "B": {
+          "chunk_id": "wh_vol2_p0044_para_000",
+          "chars": 658,
+          "text": "FIGURE 2.2 Timeline: Exchange in East Asia and the Indian Ocean. (credit “1498 CE”: modification of work “Vasco de Gama” by E. Benjamin Andrews, Scribner's Sons/Wikimedia Commons, Public Domain; credit “1549 CE”: modification of work “Masjid Menara Kudus” by “PL09Puryono”/Wikimedia Commons, CC0 1.0; credit “1582 CE”: modification of work “Jesuits at Akbar's court” by Chester Beatty/Wikimedia Commons, Public Domain; credit “1600 CE”: modification of work “Sekigahara Kassen Byōbu-z” by The City of Gifu Museum of History/Wikimedia Commons, Public Domain; credit “1653 CE”: modification of work “Taj Mahal” by David Castor/Wikimedia Commons, Public Domain)",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Giữ trọn caption FIGURE 2.2 Timeline nhưng thiếu nội dung chi tiết trên hình vẽ."
+        },
+        "C": {
+          "chunk_id": "wh_vol2_p0044_para_000",
+          "chars": 658,
+          "text": "FIGURE 2.2 Timeline: Exchange in East Asia and the Indian Ocean. (credit “1498 CE”: modification of work “Vasco de Gama” by E. Benjamin Andrews, Scribner's Sons/Wikimedia Commons, Public Domain; credit “1549 CE”: modification of work “Masjid Menara Kudus” by “PL09Puryono”/Wikimedia Commons, CC0 1.0; credit “1582 CE”: modification of work “Jesuits at Akbar's court” by Chester Beatty/Wikimedia Commons, Public Domain; credit “1600 CE”: modification of work “Sekigahara Kassen Byōbu-z” by The City of Gifu Museum of History/Wikimedia Commons, Public Domain; credit “1653 CE”: modification of work “Taj Mahal” by David Castor/Wikimedia Commons, Public Domain)",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol2 p.45 (2.1 India and International Connections)",
+      "document_id": "wh_vol2",
+      "page": 45,
+      "section": "2.1 India and International Connections",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol2_p0045_fixed_001",
+          "chars": 500,
+          "text": "effects of geography, conquest, and immigration on Gujarat’s role in Indian Ocean trade networks\n\n• Discuss the rise of the Maratha Empire\n\n• Explain how internal conflicts in India contributed to the success of European colonization\n\nAt the center of world trade in the sixteenth century was India, especially the ports on its western coast, such as the cities in the Sultanate of Gujarat. Through these harbors came the wealth and the people of the Indian Ocean world, creating a society notable fo",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Có đoạn mở về vai trò thương mại của Ấn Độ và Gujarat nhưng cắt mất phần đầu mục tiêu học tập và cắt giữa từ ở cuối ('notable fo')."
+        },
+        "B": {
+          "chunk_id": "wh_vol2_p0045_para_001",
+          "chars": 485,
+          "text": "At the center of world trade in the sixteenth century was India, especially the ports on its western coast, such as the cities in the Sultanate of Gujarat. Through these harbors came the wealth and the people of the Indian Ocean world, creating a society notable for its prosperity and diversity. The desire to control this wealth attracted both European explorers and Indian dynasties, such as the Mughals and Marathas, and eventually, it brought them into conflict. The Mughal Empire",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giữ trọn đoạn dẫn nhập mục 2.1 và tiêu đề The Mughal Empire."
+        },
+        "C": {
+          "chunk_id": "wh_vol2_p0045_para_001",
+          "chars": 485,
+          "text": "At the center of world trade in the sixteenth century was India, especially the ports on its western coast, such as the cities in the Sultanate of Gujarat. Through these harbors came the wealth and the people of the Indian Ocean world, creating a society notable for its prosperity and diversity. The desire to control this wealth attracted both European explorers and Indian dynasties, such as the Mughals and Marathas, and eventually, it brought them into conflict. The Mughal Empire",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol2 p.46 (2.1 India and International Connections)",
+      "document_id": "wh_vol2",
+      "page": 46,
+      "section": "2.1 India and International Connections",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol2_p0046_fixed_001",
+          "chars": 499,
+          "text": "ning gardens in the Persian style. He remained firmly oriented toward central Asia and maintained a post road and waystations connecting the Mughal capital of Agra to Kabul. When he died, he was interred at Agra, but to honor his wishes, his body was later taken home to Kabul for burial. LINK TO LEARNING\n\nThe Baburnama (Book of Babur) is a sixteenth-century illustrated account of Emperor Babur’s exploits. Among the illustrations in the Baburnama (https://openstax.org/l/77Baburnama) are pictures",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Câu đầu bị cắt chủ ngữ Babur ('ning gardens...'), đoạn LINK TO LEARNING phía sau bị cắt dở ('are pictures')."
+        },
+        "B": {
+          "chunk_id": "wh_vol2_p0046_para_001",
+          "chars": 808,
+          "text": "The Baburnama (Book of Babur) is a sixteenth-century illustrated account of Emperor Babur’s exploits. Among the illustrations in the Baburnama (https://openstax.org/l/77Baburnama) are pictures of his battles, travels, and life at court.\n\nWhen Babur died in 1530, his eldest son Humayun inherited Mughal India. Humayun’s reign was not a successful one. After only ten years, he was forced to flee after being defeated in battle by Sher Shah Suri, the ruler of the Indian state of Bihar. Humayun sought refuge at the court of the Safavid Shah Tahmasp in Persia, where he became deeply immersed in Persian culture. In 1555, he returned to India and won back his throne, but his victory was short-lived. Only a few months after retaking the Indian city of Delhi, Humayun died after tripping on a steep staircase.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giữ trọn hộp LINK TO LEARNING về Baburnama và đoạn tiểu sử Humayun."
+        },
+        "C": {
+          "chunk_id": "wh_vol2_p0046_para_001",
+          "chars": 808,
+          "text": "The Baburnama (Book of Babur) is a sixteenth-century illustrated account of Emperor Babur’s exploits. Among the illustrations in the Baburnama (https://openstax.org/l/77Baburnama) are pictures of his battles, travels, and life at court.\n\nWhen Babur died in 1530, his eldest son Humayun inherited Mughal India. Humayun’s reign was not a successful one. After only ten years, he was forced to flee after being defeated in battle by Sher Shah Suri, the ruler of the Indian state of Bihar. Humayun sought refuge at the court of the Safavid Shah Tahmasp in Persia, where he became deeply immersed in Persian culture. In 1555, he returned to India and won back his throne, but his victory was short-lived. Only a few months after retaking the Indian city of Delhi, Humayun died after tripping on a steep staircase.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giống B."
+        }
+      }
+    },
+    {
+      "location": "wh_vol2 p.47 (2.1 India and International Connections)",
+      "document_id": "wh_vol2",
+      "page": 47,
+      "section": "2.1 India and International Connections",
+      "strategies": {
+        "A": {
+          "chunk_id": "wh_vol2_p0047_fixed_001",
+          "chars": 499,
+          "text": "administration, but he also proved tolerant of other religions and their adherents. He erected a hall to serve as a venue for religious debate (Figure 2.4). At first, only Muslim scholars took part, arguing matters of law and theology among themselves and answering questions Akbar posed. Soon, however, Akbar grew dissatisfied and came to regard some of their positions as too rigid. He then invited representatives of other religions to participate, including Portuguese Jesuit missionaries. Akbar",
+          "score": 1,
+          "score_0_to_2": 1,
+          "rationale": "Hiểu được nội dung Akbar mời các tôn giáo tranh luận, nhưng câu đầu và câu cuối đều bị cắt ('administration, but...', '...Akbar')."
+        },
+        "B": {
+          "chunk_id": "wh_vol2_p0047_para_001",
+          "chars": 737,
+          "text": "Not only did Akbar marry Hindu women and welcome Hindus into his administration, but he also proved tolerant of other religions and their adherents. He erected a hall to serve as a venue for religious debate (Figure 2.4). At first, only Muslim scholars took part, arguing matters of law and theology among themselves and answering questions Akbar posed. Soon, however, Akbar grew dissatisfied and came to regard some of their positions as too rigid. He then invited representatives of other religions to participate, including Portuguese Jesuit missionaries. Akbar found Christianity interesting, but he rejected the Jesuits’ teachings regarding the divinity of Jesus and reportedly found their insistence on monogamous marriage amusing.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giữ trọn đoạn về sự khoan dung tôn giáo và hội trường tranh luận của Akbar."
+        },
+        "C": {
+          "chunk_id": "wh_vol2_p0047_para_001",
+          "chars": 737,
+          "text": "Not only did Akbar marry Hindu women and welcome Hindus into his administration, but he also proved tolerant of other religions and their adherents. He erected a hall to serve as a venue for religious debate (Figure 2.4). At first, only Muslim scholars took part, arguing matters of law and theology among themselves and answering questions Akbar posed. Soon, however, Akbar grew dissatisfied and came to regard some of their positions as too rigid. He then invited representatives of other religions to participate, including Portuguese Jesuit missionaries. Akbar found Christianity interesting, but he rejected the Jesuits’ teachings regarding the divinity of Jesus and reportedly found their insistence on monogamous marriage amusing.",
+          "score": 2,
+          "score_0_to_2": 2,
+          "rationale": "Giống B."
+        }
+      }
+    }
+  ],
+  "coherence_summary": {
+    "A": {
+      "n": 10,
+      "counts": {
+        "0": 5,
+        "1": 5,
+        "2": 0
+      },
+      "mean": 0.5
+    },
+    "B": {
+      "n": 10,
+      "counts": {
+        "0": 0,
+        "1": 2,
+        "2": 8
+      },
+      "mean": 1.8
+    },
+    "C": {
+      "n": 10,
+      "counts": {
+        "0": 0,
+        "1": 2,
+        "2": 8
+      },
+      "mean": 1.8
+    }
+  },
+  "test_set_top3_for_metadata_and_grounding": {
+    "A": [
+      {
+        "id": "q17",
+        "question": "Why did Ancient Egyptians view the cosmos as orderly and balanced rather than adopting the pessimistic outlook of Mesopotamia?",
+        "expected_answer": "Unlike the unpredictable and destructive flooding of the Tigris and Euphrates, the Nile flooded predictably like clockwork and deposited fertile sediment, shaping the concept of Ma'at.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 101,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": false,
+        "hit_at_3": false,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0101_fixed_004",
+            "document_id": "wh_vol1",
+            "page": 101,
+            "score": 0.68938,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "char_end": 2300,
+              "language": "en",
+              "char_start": 1800,
+              "chunk_index": 4,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 101
+            },
+            "text_preview": "balance. In contrast to the apparently pessimistic people in Mesopotamia, Egyptians drew from their environment a feeling that their world was orderly, balanced, and geared toward a sense of cosmic justice. It was an Egyptian’s responsibility to live in harmony with this order.\n\nIN THEIR OWN WORDS\n\n"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0098_fixed_001",
+            "document_id": "wh_vol1",
+            "page": 98,
+            "score": 0.571843,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "char_end": 950,
+              "language": "en",
+              "char_start": 450,
+              "chunk_index": 1,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 98
+            },
+            "text_preview": "eve they had a generally pessimistic worldview. From the literature they left behind, we can see that while they hoped for the best, they were often resigned to accept the worst. Given the environment in which Mesopotamian civilization emerged, this pessimism is somewhat understandable. River floodi"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0101_fixed_003",
+            "document_id": "wh_vol1",
+            "page": 101,
+            "score": 0.551182,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "char_end": 1850,
+              "language": "en",
+              "char_start": 1350,
+              "chunk_index": 3,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 101
+            },
+            "text_preview": "s Rivers in southern Mesopotamia commonly brought destruction along with fresh alluvial deposits, the Nile’s summer flooding, predictable as clockwork, brought only welcome deposits of rich sediment. It provided Egyptians with a sense that the world was harmonious and organized around cycles. In lat"
+          }
+        ],
+        "grounding_score_0_to_2": 1,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "Bằng chứng bị xé đôi giữa r1 và r3, câu cắt giữa từ ('s Rivers...', 'In lat')."
+      },
+      {
+        "id": "q18",
+        "question": "In Volume 1, how many workers do modern archaeologists believe constructed Khufu's Great Pyramid, as opposed to Herodotus's claim?",
+        "expected_answer": "Around twenty thousand workers (rather than Herodotus's 100,000), and they were not enslaved.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 106,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": false,
+        "hit_at_3": false,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0106_fixed_001",
+            "document_id": "wh_vol1",
+            "page": 106,
+            "score": 0.658257,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "char_end": 950,
+              "language": "en",
+              "char_start": 450,
+              "chunk_index": 1,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 106
+            },
+            "text_preview": "d to a temple along the Nile dedicated to the relevant pharaoh.\n\nEgyptian rulers invested heavily in time and resources to construct these tombs. In the mid-fifth century BCE, the ancient Greek historian Herodotus recorded that the pyramid of Khufu took 100,000 workers twenty years to construct. Her"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0106_fixed_002",
+            "document_id": "wh_vol1",
+            "page": 106,
+            "score": 0.573654,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "char_end": 1400,
+              "language": "en",
+              "char_start": 900,
+              "chunk_index": 2,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 106
+            },
+            "text_preview": "spect that a much smaller but still substantial workforce of around twenty thousand was likely employed. Excavations at the site reveal that these workers lived in cities built nearby that housed them as well as many others dedicated to feeding and caring for them. The workers were not enslaved, as "
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0103_fixed_002",
+            "document_id": "wh_vol1",
+            "page": 103,
+            "score": 0.506959,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "char_end": 1400,
+              "language": "en",
+              "char_start": 900,
+              "chunk_index": 2,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 103
+            },
+            "text_preview": "and archaeologists after hieroglyphics were deciphered in the nineteenth century. They preserved Egyptian myths and poetry, popular stories, and lists of pharaohs, along with records of the daily life of ancient Egyptians. The Age of Pyramid Building\n\nBy the 2600s BCE, the power of the pharaohs and "
+          }
+        ],
+        "grounding_score_0_to_2": 1,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "Số liệu Herodotus (100,000) ở r1 bị cắt tại 'substantial wo', ước lượng 20,000 ở r2; phải ghép 2 chunk."
+      },
+      {
+        "id": "q19",
+        "question": "Since the Indus valley civilization had no coinage, how did merchants assess goods for barter and taxes?",
+        "expected_answer": "They used a standardized system of stone cubical weights.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 115,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0115_fixed_001",
+            "document_id": "wh_vol1",
+            "page": 115,
+            "score": 0.760276,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.4 The Indus Valley Civilization",
+              "char_end": 950,
+              "language": "en",
+              "char_start": 450,
+              "chunk_index": 1,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 115
+            },
+            "text_preview": "main)\n\nMerchants from the Indus valley were undoubtedly active in exchanging such wares in these regions. In the absence of coinage, they used a common system of stone cubical weights to assess goods in commercial exchanges that required barter. The cities of the Indus valley could have also used th"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0095_fixed_007",
+            "document_id": "wh_vol1",
+            "page": 95,
+            "score": 0.557561,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.2 Ancient Mesopotamia",
+              "char_end": 3650,
+              "language": "en",
+              "char_start": 3150,
+              "chunk_index": 7,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 95
+            },
+            "text_preview": "ans and merchants they employed. Palaces and temples thus needed to possess massive storage facilities. Scribes kept records in cuneiform of all the goods collected and distributed by these institutions. City gates served as areas where farmers, artisans, and merchants could congregate and exchange "
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0113_fixed_007",
+            "document_id": "wh_vol1",
+            "page": 113,
+            "score": 0.52808,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.4 The Indus Valley Civilization",
+              "char_end": 3650,
+              "language": "en",
+              "char_start": 3150,
+              "chunk_index": 7,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 113
+            },
+            "text_preview": "ave exported tin from Afghanistan to Mesopotamia, since this metal was in demand for the manufacture of bronze.\n\nNotwithstanding the many obvious Mesopotamian influences and trading connections, the people of the Indus valley civilization developed their own unique culture. Their distinctive religio"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "r1 chứa trọn vẹn câu về stone cubical weights dùng cho trao đổi và thuế."
+      },
+      {
+        "id": "q20",
+        "question": "Which island in the Banda/Moluccas region did the Dutch designate exclusively for growing cloves while destroying clove trees elsewhere?",
+        "expected_answer": "Ambon Island.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 66,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0066_fixed_002",
+            "document_id": "wh_vol2",
+            "page": 66,
+            "score": 0.753638,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "char_end": 1400,
+              "language": "en",
+              "char_start": 900,
+              "chunk_index": 2,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 66
+            },
+            "text_preview": "hich was sold to the Dutch East India Company. The exception was Ambon Island, which the Dutch set aside to grow cloves. Clove trees on all other islands were destroyed, and anyone attempting to grow or sell cloves without permission was given the death penalty. To maintain a monopoly on the spices "
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0064_fixed_001",
+            "document_id": "wh_vol2",
+            "page": 64,
+            "score": 0.70527,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.2 The Malacca Sultanate",
+              "char_end": 950,
+              "language": "en",
+              "char_start": 450,
+              "chunk_index": 1,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 64
+            },
+            "text_preview": "ese, however, dissuaded the Portuguese from attempting to establish a factory there. One of the original three ships sailed on in search of another spice-rich island group, the Moluccas (Malaku) (Figure 2.16). Here, the Portuguese were able to establish trade relationships with the Sultanate of Tern"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0064_fixed_000",
+            "document_id": "wh_vol2",
+            "page": 64,
+            "score": 0.668254,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.2 The Malacca Sultanate",
+              "char_end": 500,
+              "language": "en",
+              "char_start": 0,
+              "chunk_index": 0,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 64
+            },
+            "text_preview": "The Portuguese had not been satisfied to take just Malacca. They had a greater prize in mind—the legendary Spice Islands, the source of the nutmeg, mace, and cloves they coveted.2 Having learned of the location of the\n\nBanda Islands in the Indonesian archipelago where nutmeg and cloves grew in abund"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 2,
+        "rationale": "r1 chứa đầy đủ thông tin Ambon Island và lệnh phá cây đinh hương ở các đảo khác."
+      },
+      {
+        "id": "q21",
+        "question": "In the Exchange in East Asia section, what ecological harm did planting newly introduced American crops like corn cause in Ming China?",
+        "expected_answer": "Clearing hillsides to plant corn led to deforestation and loss of valuable topsoil.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 73,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0073_fixed_003",
+            "document_id": "wh_vol2",
+            "page": 73,
+            "score": 0.52673,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "char_end": 1850,
+              "language": "en",
+              "char_start": 1350,
+              "chunk_index": 3,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 73
+            },
+            "text_preview": "nd sweet peppers from the Americas were added to regional cuisines, transforming them, and peanuts added not only variety but an important source of fat in diets lacking meat. These new crops ultimately proved harmful, however. As hillsides were cleared to plant corn, for example, regions became def"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0073_fixed_002",
+            "document_id": "wh_vol2",
+            "page": 73,
+            "score": 0.474853,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "char_end": 1400,
+              "language": "en",
+              "char_start": 900,
+              "chunk_index": 2,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 73
+            },
+            "text_preview": "useholds that wove silk cloth, which might then be passed on to those who specialized in embroidery. In Jingdezhen in Jiangxi province, people mass-produced porcelain.\n\nAs the Ming economy grew, so too did its population. Crops from the Americas such as sweet potatoes and maize were adopted by many "
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0066_fixed_005",
+            "document_id": "wh_vol2",
+            "page": 66,
+            "score": 0.415965,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "char_end": 2750,
+              "language": "en",
+              "char_start": 2250,
+              "chunk_index": 5,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 66
+            },
+            "text_preview": "nd Spanish, dedicated as they were to the propagation of Roman Catholicism. That opportunity was trade with Japan. 2.3 Exchange in East Asia\n\nLEARNING OBJECTIVES\n\nBy the end of this section, you will be able to:\n\n• Identify the factors that affected exchanges between Japan, its East Asian neighbors,"
+          }
+        ],
+        "grounding_score_0_to_2": 1,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "r1 bị cắt ngay giữa từ 'regions became def' trước khi nêu mất lớp đất mặt và phá rừng."
+      },
+      {
+        "id": "q22",
+        "question": "What Vatican ruling caused the Qing emperor Kangxi to decree that complying Christian missionaries had to leave China?",
+        "expected_answer": "The Vatican ruled that all church services must be conducted in Latin and that Chinese Christians must abandon their ancestral rites.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 76,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": false,
+        "hit_at_3": false,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0076_fixed_001",
+            "document_id": "wh_vol2",
+            "page": 76,
+            "score": 0.733245,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "char_end": 950,
+              "language": "en",
+              "char_start": 450,
+              "chunk_index": 1,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 76
+            },
+            "text_preview": "that Chinese Christians must be ordered to abandon their ancestral rites, Kangxi decreed that missionaries who complied would have to leave China.\n\nKangxi and his successors Yongzheng and Qianlong attempted to redress the problems that had seemed to lead to the downfall of the Ming. They placed Chin"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0075_fixed_009",
+            "document_id": "wh_vol2",
+            "page": 75,
+            "score": 0.561223,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "char_end": 4320,
+              "language": "en",
+              "char_start": 4050,
+              "chunk_index": 9,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 75
+            },
+            "text_preview": "ted scrolls that were made to depict the regions he visited.\n\nLike other Chinese rulers, Kangxi also supported Buddhism. He tolerated other religions, including Christianity, which was permitted so long as Chinese Christians continued to be filial sons and daughters who"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0068_fixed_003",
+            "document_id": "wh_vol2",
+            "page": 68,
+            "score": 0.501541,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "char_end": 1850,
+              "language": "en",
+              "char_start": 1350,
+              "chunk_index": 3,
+              "chunk_strategy": "fixed_size",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 68
+            },
+            "text_preview": "1587, Hideyoshi ordered Christian missionaries to leave Japan. The edict was not enforced, but the Jesuits, alarmed, asked Christian daimyos to help them attack the shogun, which they refused to do. In 1590, the Jesuits in Japan resolved instead to refrain from intervening in Japanese affairs, but t"
+          }
+        ],
+        "grounding_score_0_to_2": 1,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "r1 thiếu mệnh đề Vatican yêu cầu lễ bằng tiếng Latin (bị cắt trước r1)."
+      }
+    ],
+    "B": [
+      {
+        "id": "q17",
+        "question": "Why did Ancient Egyptians view the cosmos as orderly and balanced rather than adopting the pessimistic outlook of Mesopotamia?",
+        "expected_answer": "Unlike the unpredictable and destructive flooding of the Tigris and Euphrates, the Nile flooded predictably like clockwork and deposited fertile sediment, shaping the concept of Ma'at.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 101,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0101_para_003",
+            "document_id": "wh_vol1",
+            "page": 101,
+            "score": 0.613638,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 3,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 101
+            },
+            "text_preview": "As these gods and myths indicate, the Nile played an important role in the development of Egyptian religion. Whereas the unpredictable flooding of the Tigris and Euphrates Rivers in southern Mesopotamia commonly brought destruction along with fresh alluvial deposits, the Nile’s summer flooding, pred"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0098_para_001",
+            "document_id": "wh_vol1",
+            "page": 98,
+            "score": 0.612685,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 98
+            },
+            "text_preview": "The ancient Mesopotamians’ belief that the gods were fickle, destructive, and easily stirred to anger is one reason many historians believe they had a generally pessimistic worldview. From the literature they left behind, we can see that while they hoped for the best, they were often resigned to acc"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0101_para_002",
+            "document_id": "wh_vol1",
+            "page": 101,
+            "score": 0.536916,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 2,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 101
+            },
+            "text_preview": "Ancient Egyptians believed Osiris would reward people who had lived a righteous life with a blessed afterlife in the underworld, whereas he would punish wicked evildoers."
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "r1 giữ trọn đoạn đối chiếu lũ Tigris-Euphrates thất thường và lũ sông Nile đều đặn tạo khái niệm Ma'at."
+      },
+      {
+        "id": "q18",
+        "question": "In Volume 1, how many workers do modern archaeologists believe constructed Khufu's Great Pyramid, as opposed to Herodotus's claim?",
+        "expected_answer": "Around twenty thousand workers (rather than Herodotus's 100,000), and they were not enslaved.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 106,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0106_para_001",
+            "document_id": "wh_vol1",
+            "page": 106,
+            "score": 0.719921,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 106
+            },
+            "text_preview": "Egyptian rulers invested heavily in time and resources to construct these tombs. In the mid-fifth century BCE, the ancient Greek historian Herodotus recorded that the pyramid of Khufu took 100,000 workers twenty years to construct. Herodotus lived two thousand years after this pyramid was built, how"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0104_para_002",
+            "document_id": "wh_vol1",
+            "page": 104,
+            "score": 0.495069,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 2,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 104
+            },
+            "text_preview": "Both elements needed the physical body to survive.\n\nBefore the pyramids, tombs and other architectural features were built of mud-brick and called mastabas. But during the Early Dynastic reign of the pharaoh Djoser, just before the start of the Old Kingdom, a brilliant architect named Imhotep decide"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0105_para_001",
+            "document_id": "wh_vol1",
+            "page": 105,
+            "score": 0.49127,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 105
+            },
+            "text_preview": "The step pyramid of Djoser was revolutionary, but the more familiar smooth-sided style appeared a few decades later in the reign of Snefru, when three pyramids were constructed. The most impressive has become known as the Red Pyramid, because of the reddish limestone revealed after the original whit"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "r1 giữ trọn đoạn so sánh 100,000 của Herodotus với ước lượng ~20,000 lao động không phải nô lệ."
+      },
+      {
+        "id": "q19",
+        "question": "Since the Indus valley civilization had no coinage, how did merchants assess goods for barter and taxes?",
+        "expected_answer": "They used a standardized system of stone cubical weights.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 115,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": false,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0095_para_005",
+            "document_id": "wh_vol1",
+            "page": 95,
+            "score": 0.532082,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.2 Ancient Mesopotamia",
+              "language": "en",
+              "chunk_index": 5,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 95
+            },
+            "text_preview": "We know now that temples and royal palaces were not merely princely residences and places for religious rituals; they also functioned as economic redistribution centers. For example, agricultural goods were collected from farmers as taxes by civic and religious officials, who then stored them to pro"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0115_para_000",
+            "document_id": "wh_vol1",
+            "page": 115,
+            "score": 0.522856,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.4 The Indus Valley Civilization",
+              "language": "en",
+              "chunk_index": 0,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 115
+            },
+            "text_preview": "FIGURE 3.29 The Mohenjo-Daro Dancer. This four-inch-tall bronze statue of a young woman discovered at Mohenjo-Daro and dated to circa 2300–1750 BCE could depict a goddess or a woman of the elite class who is dancing. If she is dancing, we can also conclude that music and dance may have been incorpor"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0111_para_005",
+            "document_id": "wh_vol1",
+            "page": 111,
+            "score": 0.519005,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.4 The Indus Valley Civilization",
+              "language": "en",
+              "chunk_index": 5,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 111
+            },
+            "text_preview": "Archaeological work has revealed that a considerable amount of trade flowed between Mesopotamia and the Indus valley. Cuneiform tablets from Mesopotamia refer to the Indus valley as Meluhha and document that precious stones such as lapis lazuli and carnelian, as well as marine shells from the Indian"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "r2 (p.115) giữ trọn đoạn về stone cubical weights của nền văn minh sông Ấn."
+      },
+      {
+        "id": "q20",
+        "question": "Which island in the Banda/Moluccas region did the Dutch designate exclusively for growing cloves while destroying clove trees elsewhere?",
+        "expected_answer": "Ambon Island.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 66,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0066_para_001",
+            "document_id": "wh_vol2",
+            "page": 66,
+            "score": 0.735248,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 66
+            },
+            "text_preview": "The islands’ land was divided up and given to Dutch colonists, and enslaved Southeast Asians, European indentured servants, and convict laborers were set to work raising nutmeg, which was sold to the Dutch East India Company. The exception was Ambon Island, which the Dutch set aside to grow cloves. "
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0064_para_000",
+            "document_id": "wh_vol2",
+            "page": 64,
+            "score": 0.706149,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.2 The Malacca Sultanate",
+              "language": "en",
+              "chunk_index": 0,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 64
+            },
+            "text_preview": "The Portuguese had not been satisfied to take just Malacca. They had a greater prize in mind—the legendary Spice Islands, the source of the nutmeg, mace, and cloves they coveted.2 Having learned of the location of the\n\nBanda Islands in the Indonesian archipelago where nutmeg and cloves grew in abund"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0064_para_001",
+            "document_id": "wh_vol2",
+            "page": 64,
+            "score": 0.652346,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.2 The Malacca Sultanate",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 64
+            },
+            "text_preview": "FIGURE 2.16 The Banda Islands. The Banda Islands, a spice-rich island group, lie in the center of the Moluccas, an archipelago in the east of Indonesia. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 2,
+        "rationale": "r1 giữ trọn đoạn về Ambon Island và chính sách độc quyền gia vị của Hà Lan."
+      },
+      {
+        "id": "q21",
+        "question": "In the Exchange in East Asia section, what ecological harm did planting newly introduced American crops like corn cause in Ming China?",
+        "expected_answer": "Clearing hillsides to plant corn led to deforestation and loss of valuable topsoil.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 73,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0073_para_002",
+            "document_id": "wh_vol2",
+            "page": 73,
+            "score": 0.615111,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 2,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 73
+            },
+            "text_preview": "As the Ming economy grew, so too did its population. Crops from the Americas such as sweet potatoes and maize were adopted by many peasants, especially those who lived in hilly, dry regions like Sichuan. These crops grew well and provided abundant calories for farm families. Hot and sweet peppers fr"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0074_para_003",
+            "document_id": "wh_vol2",
+            "page": 74,
+            "score": 0.412504,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 3,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 74
+            },
+            "text_preview": "• What kinds of behavior were these writers trying to encourage in women? Why were these behaviors important?\n\n• What evidence do you see in these excerpts that women’s lives had been affected by what we would call consumer culture?\n\n• Where do you see evidence of women’s freedom? Where do you see t"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0072_para_003",
+            "document_id": "wh_vol2",
+            "page": 72,
+            "score": 0.407394,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 3,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 72
+            },
+            "text_preview": "It was hoped that the new fortification would protect China from the outside world.\n\nChina needed money to pay for this massive project, however, as well as such other projects as the extension of the Grand Canal to Beijing, which the Yongle emperor had made his capital, and the building of a massiv"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "r1 giữ trọn đoạn về cây trồng châu Mỹ gây phá rừng, xói mòn đất mặt và thu hẹp ruộng."
+      },
+      {
+        "id": "q22",
+        "question": "What Vatican ruling caused the Qing emperor Kangxi to decree that complying Christian missionaries had to leave China?",
+        "expected_answer": "The Vatican ruled that all church services must be conducted in Latin and that Chinese Christians must abandon their ancestral rites.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 76,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0076_para_000",
+            "document_id": "wh_vol2",
+            "page": 76,
+            "score": 0.59478,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 0,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 76
+            },
+            "text_preview": "venerated their ancestors, a practice the Jesuits supported. The Jesuits’ efforts to learn the Chinese language and their respect for Chinese culture made them more successful at winning converts than the Dominicans and Franciscans. But members of these other orders grew jealous and complained to th"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0075_para_006",
+            "document_id": "wh_vol2",
+            "page": 75,
+            "score": 0.554972,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 6,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 75
+            },
+            "text_preview": "Like other Chinese rulers, Kangxi also supported Buddhism. He tolerated other religions, including Christianity, which was permitted so long as Chinese Christians continued to be filial sons and daughters who"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0068_para_005",
+            "document_id": "wh_vol2",
+            "page": 68,
+            "score": 0.549214,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 5,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 68
+            },
+            "text_preview": "IN THEIR OWN WORDS\n\nThe Expulsion of the Missionaries In 1587, Toyotomi Hideyoshi ordered Christian missionaries to leave Japan. He had not always been opposed to Christianity. Some of his loyal daimyos were Christians, and Christians had offered prayers for his success when he invaded Korea. Like h"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "r1 giữ trọn quyết định của Vatican (tiếng Latin & bỏ thờ tổ tiên) và sắc lệnh trục xuất của Khang Hy."
+      }
+    ],
+    "C": [
+      {
+        "id": "q17",
+        "question": "Why did Ancient Egyptians view the cosmos as orderly and balanced rather than adopting the pessimistic outlook of Mesopotamia?",
+        "expected_answer": "Unlike the unpredictable and destructive flooding of the Tigris and Euphrates, the Nile flooded predictably like clockwork and deposited fertile sediment, shaping the concept of Ma'at.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 101,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0101_para_003",
+            "document_id": "wh_vol1",
+            "page": 101,
+            "score": 0.613638,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 3,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 101
+            },
+            "text_preview": "As these gods and myths indicate, the Nile played an important role in the development of Egyptian religion. Whereas the unpredictable flooding of the Tigris and Euphrates Rivers in southern Mesopotamia commonly brought destruction along with fresh alluvial deposits, the Nile’s summer flooding, pred"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0098_para_001",
+            "document_id": "wh_vol1",
+            "page": 98,
+            "score": 0.612685,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 98
+            },
+            "text_preview": "The ancient Mesopotamians’ belief that the gods were fickle, destructive, and easily stirred to anger is one reason many historians believe they had a generally pessimistic worldview. From the literature they left behind, we can see that while they hoped for the best, they were often resigned to acc"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0101_para_002",
+            "document_id": "wh_vol1",
+            "page": 101,
+            "score": 0.536916,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 2,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 101
+            },
+            "text_preview": "Ancient Egyptians believed Osiris would reward people who had lived a righteous life with a blessed afterlife in the underworld, whereas he would punish wicked evildoers."
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "Giống B."
+      },
+      {
+        "id": "q18",
+        "question": "In Volume 1, how many workers do modern archaeologists believe constructed Khufu's Great Pyramid, as opposed to Herodotus's claim?",
+        "expected_answer": "Around twenty thousand workers (rather than Herodotus's 100,000), and they were not enslaved.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 106,
+        "filter_used": {
+          "volume": "Volume 1"
+        },
+        "filter_compliant": true,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0106_para_001",
+            "document_id": "wh_vol1",
+            "page": 106,
+            "score": 0.719921,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 106
+            },
+            "text_preview": "Egyptian rulers invested heavily in time and resources to construct these tombs. In the mid-fifth century BCE, the ancient Greek historian Herodotus recorded that the pyramid of Khufu took 100,000 workers twenty years to construct. Herodotus lived two thousand years after this pyramid was built, how"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0104_para_002",
+            "document_id": "wh_vol1",
+            "page": 104,
+            "score": 0.495069,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 2,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 104
+            },
+            "text_preview": "Both elements needed the physical body to survive.\n\nBefore the pyramids, tombs and other architectural features were built of mud-brick and called mastabas. But during the Early Dynastic reign of the pharaoh Djoser, just before the start of the Old Kingdom, a brilliant architect named Imhotep decide"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0105_para_001",
+            "document_id": "wh_vol1",
+            "page": 105,
+            "score": 0.49127,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.3 Ancient Egypt",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 105
+            },
+            "text_preview": "The step pyramid of Djoser was revolutionary, but the more familiar smooth-sided style appeared a few decades later in the reign of Snefru, when three pyramids were constructed. The most impressive has become known as the Red Pyramid, because of the reddish limestone revealed after the original whit"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "Giống B (có lọc volume='Volume 1', tuân thủ 100%)."
+      },
+      {
+        "id": "q19",
+        "question": "Since the Indus valley civilization had no coinage, how did merchants assess goods for barter and taxes?",
+        "expected_answer": "They used a standardized system of stone cubical weights.",
+        "gold_source_id": "wh_vol1",
+        "gold_page": 115,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": false,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol1_p0095_para_005",
+            "document_id": "wh_vol1",
+            "page": 95,
+            "score": 0.532082,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.2 Ancient Mesopotamia",
+              "language": "en",
+              "chunk_index": 5,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 95
+            },
+            "text_preview": "We know now that temples and royal palaces were not merely princely residences and places for religious rituals; they also functioned as economic redistribution centers. For example, agricultural goods were collected from farmers as taxes by civic and religious officials, who then stored them to pro"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol1_p0115_para_000",
+            "document_id": "wh_vol1",
+            "page": 115,
+            "score": 0.522856,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.4 The Indus Valley Civilization",
+              "language": "en",
+              "chunk_index": 0,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 115
+            },
+            "text_preview": "FIGURE 3.29 The Mohenjo-Daro Dancer. This four-inch-tall bronze statue of a young woman discovered at Mohenjo-Daro and dated to circa 2300–1750 BCE could depict a goddess or a woman of the elite class who is dancing. If she is dancing, we can also conclude that music and dance may have been incorpor"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol1_p0111_para_005",
+            "document_id": "wh_vol1",
+            "page": 111,
+            "score": 0.519005,
+            "metadata": {
+              "volume": "Volume 1",
+              "chapter": "Chapter 3: Early Civilizations and Urban Societies",
+              "section": "3.4 The Indus Valley Civilization",
+              "language": "en",
+              "chunk_index": 5,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol1",
+              "source": "starter/data/World_History_Volume_1-WEB.pdf",
+              "page": 111
+            },
+            "text_preview": "Archaeological work has revealed that a considerable amount of trade flowed between Mesopotamia and the Indus valley. Cuneiform tablets from Mesopotamia refer to the Indus valley as Meluhha and document that precious stones such as lapis lazuli and carnelian, as well as marine shells from the Indian"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "Giống B."
+      },
+      {
+        "id": "q20",
+        "question": "Which island in the Banda/Moluccas region did the Dutch designate exclusively for growing cloves while destroying clove trees elsewhere?",
+        "expected_answer": "Ambon Island.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 66,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0066_para_001",
+            "document_id": "wh_vol2",
+            "page": 66,
+            "score": 0.735248,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 66
+            },
+            "text_preview": "The islands’ land was divided up and given to Dutch colonists, and enslaved Southeast Asians, European indentured servants, and convict laborers were set to work raising nutmeg, which was sold to the Dutch East India Company. The exception was Ambon Island, which the Dutch set aside to grow cloves. "
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0064_para_000",
+            "document_id": "wh_vol2",
+            "page": 64,
+            "score": 0.706149,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.2 The Malacca Sultanate",
+              "language": "en",
+              "chunk_index": 0,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 64
+            },
+            "text_preview": "The Portuguese had not been satisfied to take just Malacca. They had a greater prize in mind—the legendary Spice Islands, the source of the nutmeg, mace, and cloves they coveted.2 Having learned of the location of the\n\nBanda Islands in the Indonesian archipelago where nutmeg and cloves grew in abund"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0064_para_001",
+            "document_id": "wh_vol2",
+            "page": 64,
+            "score": 0.652346,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.2 The Malacca Sultanate",
+              "language": "en",
+              "chunk_index": 1,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 64
+            },
+            "text_preview": "FIGURE 2.16 The Banda Islands. The Banda Islands, a spice-rich island group, lie in the center of the Moluccas, an archipelago in the east of Indonesia. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 2,
+        "rationale": "Giống B."
+      },
+      {
+        "id": "q21",
+        "question": "In the Exchange in East Asia section, what ecological harm did planting newly introduced American crops like corn cause in Ming China?",
+        "expected_answer": "Clearing hillsides to plant corn led to deforestation and loss of valuable topsoil.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 73,
+        "filter_used": {
+          "section": "2.3 Exchange in East Asia"
+        },
+        "filter_compliant": true,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0073_para_002",
+            "document_id": "wh_vol2",
+            "page": 73,
+            "score": 0.615111,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 2,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 73
+            },
+            "text_preview": "As the Ming economy grew, so too did its population. Crops from the Americas such as sweet potatoes and maize were adopted by many peasants, especially those who lived in hilly, dry regions like Sichuan. These crops grew well and provided abundant calories for farm families. Hot and sweet peppers fr"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0074_para_003",
+            "document_id": "wh_vol2",
+            "page": 74,
+            "score": 0.412504,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 3,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 74
+            },
+            "text_preview": "• What kinds of behavior were these writers trying to encourage in women? Why were these behaviors important?\n\n• What evidence do you see in these excerpts that women’s lives had been affected by what we would call consumer culture?\n\n• Where do you see evidence of women’s freedom? Where do you see t"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0072_para_003",
+            "document_id": "wh_vol2",
+            "page": 72,
+            "score": 0.407394,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 3,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 72
+            },
+            "text_preview": "It was hoped that the new fortification would protect China from the outside world.\n\nChina needed money to pay for this massive project, however, as well as such other projects as the extension of the Grand Canal to Beijing, which the Yongle emperor had made his capital, and the building of a massiv"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "Giống B (có lọc section='2.3 Exchange in East Asia', tuân thủ 100%)."
+      },
+      {
+        "id": "q22",
+        "question": "What Vatican ruling caused the Qing emperor Kangxi to decree that complying Christian missionaries had to leave China?",
+        "expected_answer": "The Vatican ruled that all church services must be conducted in Latin and that Chinese Christians must abandon their ancestral rites.",
+        "gold_source_id": "wh_vol2",
+        "gold_page": 76,
+        "filter_used": null,
+        "filter_compliant": null,
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "top_3": [
+          {
+            "rank": 1,
+            "chunk_id": "wh_vol2_p0076_para_000",
+            "document_id": "wh_vol2",
+            "page": 76,
+            "score": 0.59478,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 0,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 76
+            },
+            "text_preview": "venerated their ancestors, a practice the Jesuits supported. The Jesuits’ efforts to learn the Chinese language and their respect for Chinese culture made them more successful at winning converts than the Dominicans and Franciscans. But members of these other orders grew jealous and complained to th"
+          },
+          {
+            "rank": 2,
+            "chunk_id": "wh_vol2_p0075_para_006",
+            "document_id": "wh_vol2",
+            "page": 75,
+            "score": 0.554972,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 6,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 75
+            },
+            "text_preview": "Like other Chinese rulers, Kangxi also supported Buddhism. He tolerated other religions, including Christianity, which was permitted so long as Chinese Christians continued to be filial sons and daughters who"
+          },
+          {
+            "rank": 3,
+            "chunk_id": "wh_vol2_p0068_para_005",
+            "document_id": "wh_vol2",
+            "page": 68,
+            "score": 0.549214,
+            "metadata": {
+              "volume": "Volume 2",
+              "chapter": "Chapter 2: Exchange in East Asia and the Indian Ocean",
+              "section": "2.3 Exchange in East Asia",
+              "language": "en",
+              "chunk_index": 5,
+              "chunk_strategy": "by_paragraph",
+              "document_id": "wh_vol2",
+              "source": "starter/data/World_History_Volume_2-WEB.pdf",
+              "page": 68
+            },
+            "text_preview": "IN THEIR OWN WORDS\n\nThe Expulsion of the Missionaries In 1587, Toyotomi Hideyoshi ordered Christian missionaries to leave Japan. He had not always been opposed to Christianity. Some of his loyal daimyos were Christians, and Christians had offered prayers for his success when he invaded Korea. Like h"
+          }
+        ],
+        "grounding_score_0_to_2": 2,
+        "metadata_ok_count_out_of_3": 3,
+        "rationale": "Giống B."
+      }
+    ]
+  },
+  "metadata_audit_test_split": {
+    "total_records_checked_per_strategy": 18,
+    "accurate_and_complete_count": 17,
+    "error_records": [
+      {
+        "question_id": "q20",
+        "rank": 1,
+        "chunk_ids": {
+          "A": "wh_vol2_p0066_fixed_002",
+          "B": "wh_vol2_p0066_para_001",
+          "C": "wh_vol2_p0066_para_001"
+        },
+        "issue": "section được gắn là '2.3 Exchange in East Asia' do gán section theo cấp trang từ trang 66, trong khi đoạn văn về Ambon Island ở đầu trang 66 thực chất thuộc phần kết của '2.2 The Malacca Sultanate'."
+      }
+    ],
+    "filter_compliance": {
+      "A": "N/A",
+      "B": "N/A",
+      "C_dev": "3/3",
+      "C_test": "2/2",
+      "C_total": "5/5"
+    }
+  },
+  "grounding_audit_test_split": {
+    "A": {
+      "per_question": {
+        "q17": {
+          "score": 1,
+          "rationale": "Bằng chứng bị xé đôi giữa r1 và r3, câu cắt giữa từ ('s Rivers...', 'In lat')."
+        },
+        "q18": {
+          "score": 1,
+          "rationale": "Số liệu Herodotus (100,000) ở r1 bị cắt tại 'substantial wo', ước lượng 20,000 ở r2; phải ghép 2 chunk."
+        },
+        "q19": {
+          "score": 2,
+          "rationale": "r1 chứa trọn vẹn câu về stone cubical weights dùng cho trao đổi và thuế."
+        },
+        "q20": {
+          "score": 2,
+          "rationale": "r1 chứa đầy đủ thông tin Ambon Island và lệnh phá cây đinh hương ở các đảo khác."
+        },
+        "q21": {
+          "score": 1,
+          "rationale": "r1 bị cắt ngay giữa từ 'regions became def' trước khi nêu mất lớp đất mặt và phá rừng."
+        },
+        "q22": {
+          "score": 1,
+          "rationale": "r1 thiếu mệnh đề Vatican yêu cầu lễ bằng tiếng Latin (bị cắt trước r1)."
+        }
+      },
+      "counts": {
+        "0": 0,
+        "1": 4,
+        "2": 2
+      },
+      "mean": 1.33
+    },
+    "B": {
+      "per_question": {
+        "q17": {
+          "score": 2,
+          "rationale": "r1 giữ trọn đoạn đối chiếu lũ Tigris-Euphrates thất thường và lũ sông Nile đều đặn tạo khái niệm Ma'at."
+        },
+        "q18": {
+          "score": 2,
+          "rationale": "r1 giữ trọn đoạn so sánh 100,000 của Herodotus với ước lượng ~20,000 lao động không phải nô lệ."
+        },
+        "q19": {
+          "score": 2,
+          "rationale": "r2 (p.115) giữ trọn đoạn về stone cubical weights của nền văn minh sông Ấn."
+        },
+        "q20": {
+          "score": 2,
+          "rationale": "r1 giữ trọn đoạn về Ambon Island và chính sách độc quyền gia vị của Hà Lan."
+        },
+        "q21": {
+          "score": 2,
+          "rationale": "r1 giữ trọn đoạn về cây trồng châu Mỹ gây phá rừng, xói mòn đất mặt và thu hẹp ruộng."
+        },
+        "q22": {
+          "score": 2,
+          "rationale": "r1 giữ trọn quyết định của Vatican (tiếng Latin & bỏ thờ tổ tiên) và sắc lệnh trục xuất của Khang Hy."
+        }
+      },
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 6
+      },
+      "mean": 2.0
+    },
+    "C": {
+      "per_question": {
+        "q17": {
+          "score": 2,
+          "rationale": "Giống B."
+        },
+        "q18": {
+          "score": 2,
+          "rationale": "Giống B (có lọc volume='Volume 1', tuân thủ 100%)."
+        },
+        "q19": {
+          "score": 2,
+          "rationale": "Giống B."
+        },
+        "q20": {
+          "score": 2,
+          "rationale": "Giống B."
+        },
+        "q21": {
+          "score": 2,
+          "rationale": "Giống B (có lọc section='2.3 Exchange in East Asia', tuân thủ 100%)."
+        },
+        "q22": {
+          "score": 2,
+          "rationale": "Giống B."
+        }
+      },
+      "counts": {
+        "0": 0,
+        "1": 0,
+        "2": 6
+      },
+      "mean": 2.0
+    }
+  }
+}

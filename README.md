@@ -45,3 +45,16 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Triển khai & cách chạy bài nộp
+
+- **Corpus & manifest**: Mô tả chi tiết tại [data/manifest.json](data/manifest.json) (75 trang nội dung từ OpenStax *World History, Volume 1* Chương 3 & *World History, Volume 2* Chương 2, CC BY-NC-SA 4.0). Hai file PDF gốc được đặt trong `starter/data/` (`World_History_Volume_1-WEB.pdf`, `World_History_Volume_2-WEB.pdf`).
+- **Môi trường & cấu hình**: Khởi động PostgreSQL + pgvector trong `starter/`, tạo `starter/.env` từ `starter/.env.example` và điền API key (`OPENROUTER_API_KEY` cho fallback `openai/text-embedding-3-small`, 1536 chiều; xem nhật ký fallback tại [starter/results/provider_fallback_log.json](starter/results/provider_fallback_log.json)).
+- **Chạy toàn bộ pipeline & benchmark**:
+  ```bash
+  cd starter
+  docker compose -p day6_student_starter up -d --wait
+  python scripts/check_setup.py
+  python -m src.run
+  ```
+- **Kết quả & báo cáo**: Artifacts được lưu đồng bộ tại `results/` và `starter/results/`, log tổng hợp tại [artifacts/experiment_log.csv](artifacts/experiment_log.csv), và báo cáo cá nhân tại [report/individual/2A202602475_LyThanhLam.md](report/individual/2A202602475_LyThanhLam.md).

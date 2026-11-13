@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,volume,chapter,section",none,openrouter:openai/text-embedding-3-small(1536d),"Baseline cat co dinh 500 ky tu se lam dut y va giam Evidence Hit@3/Coherence",9/16,13/16,3/6,3/6,"487 chunks; 20.915s index; 0.726s search; Coherence 0.50/2; Grounding 1.33/2"
+B,by_paragraph,900,0,"document_id,source,page,volume,chapter,section",none,openrouter:openai/text-embedding-3-small(1536d),"Gom theo doan van se bao toan ngu canh va tang Hit@3/Coherence/Grounding",10/16,15/16,5/6,6/6,"322 chunks; 11.187s index; 0.742s search; Coherence 1.80/2; Grounding 2.00/2"
+C,by_paragraph,900,0,"document_id,source,page,volume,chapter,section",volume/section (when query provides filter),openrouter:openai/text-embedding-3-small(1536d),"Loc metadata giup thu hep pham vi tim kiem va ngan nhieu xuyen volume/section",10/16,15/16,5/6,6/6,"322 chunks (cung chunk/vector voi B); 0.612s search (-17.5% vs B); Filter compliance 5/5"

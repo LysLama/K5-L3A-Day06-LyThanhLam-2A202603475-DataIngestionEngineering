@@ -1,0 +1,247 @@
+{
+  "benchmark_version": "1.0",
+  "created_before_run": true,
+  "selection_criteria": "Select the strategy on dev split prioritizing Evidence Hit@3 first, then Hit@1 and manual Grounding/Coherence quality, and finally ingestion efficiency (chunk count, runtime, cost).",
+  "splits": {
+    "dev": 16,
+    "test": 6,
+    "total": 22
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "About when was the wooden mosaic-covered box discovered in a royal tomb at Ur dated?",
+      "expected_answer": "About 2550 BCE.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 79,
+      "evidence_quote": "It dates from about 2550 BCE and exhibits several markers of this era’s civilizations"
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "How did decision-making in smaller pre-civilization groups differ from authority in larger early civilizations?",
+      "expected_answer": "Smaller groups made decisions together by consensus and elders' negotiations, whereas in larger civilizations priests and kings commanded obedience in exchange for protection and prosperity.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 82,
+      "evidence_quote": "In smaller groups, decisions about war and migration were made in concert because no individual or family was likely to survive without the others."
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "What population size may the largest Sumerian city, Uruk, have reached by the end of the fourth millennium BCE?",
+      "expected_answer": "As high as fifty thousand residents.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 87,
+      "evidence_quote": "one large city, Uruk, with a population that may have been as high as fifty thousand."
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "How did Jean-Jacques Glassner's view of early Sumerian writing differ from Denise Schmandt-Besserat's accounting-token theory?",
+      "expected_answer": "Glassner argued early writing was a deliberate effort to render the Sumerian language in script (akin to interpreting omens), rather than an extension of accounting techniques.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 89,
+      "evidence_quote": "Glassner believes that rather than being an extension of accounting techniques, early writing was a purposeful attempt to render the Sumerian language in script."
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "In the Ancient Mesopotamia section, under what conditions was a debtor excused from paying grain or rent on a loan for that year?",
+      "expected_answer": "When a storm ruined the grain, the harvest failed, or the grain failed to grow for lack of water.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 95,
+      "evidence_quote": "If anyone owe a debt for a loan, and a storm prostrates the grain, or the harvest fail, or the grain does not grow for lack of water; in that year he need not give his creditor any grain",
+      "filter": {
+        "section": "3.2 Ancient Mesopotamia"
+      }
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Why did the principle of 'an eye for an eye and a tooth for a tooth' in Hammurabi's Code not apply equally to all social classes?",
+      "expected_answer": "Equal physical punishment applied only when victim and perpetrator belonged to the same social class; an aristocrat who harmed a commoner might only pay a fine.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 96,
+      "evidence_quote": "However, the principle applied only to victims and perpetrators of the same social class. An aristocrat convicted of the murder of a fellow noble paid with their life, while an aristocrat who harmed or murdered a commoner might be required only to pay a fine."
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "In the Ancient Egypt section, who was the architect who built the step pyramid for Pharaoh Djoser?",
+      "expected_answer": "Imhotep.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 104,
+      "evidence_quote": "a brilliant architect named Imhotep decided to build a marvelous stone tomb for his king.",
+      "filter": {
+        "section": "3.3 Ancient Egypt"
+      }
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "What did Rajesh Rao's conditional entropy computer analysis conclude about the Indus valley script?",
+      "expected_answer": "Its degree of randomness matched natural languages (resembling Old Tamil) rather than random or non-linguistic tax/quality marks.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 113,
+      "evidence_quote": "He discovered that the Indus valley script has a degree of randomness similar to that of natural languages, leading him to the conclusion that the symbols do represent a language"
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Even though Emperor Akbar abolished the jizya tax and welcomed Hindus, what restrictive practice for royal women did he introduce to India?",
+      "expected_answer": "Royal women were physically secluded in a harem and removed from public life and official records.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 46,
+      "evidence_quote": "The women of the royal family were physically secluded in a harem."
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "For whom was the Taj Mahal built in 1631, and what stone covers its exterior instead of typical sandstone?",
+      "expected_answer": "Built by Shah Jahan as a tomb for his favorite wife Mumtaz Mahal; covered in white marble.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 49,
+      "evidence_quote": "The most beautiful of these was the Taj Mahal, a tomb erected in 1631 for Shah Jahan’s favorite wife Mumtaz Mahal"
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "How did the Maratha emperor Shivaji reduce Mughal cultural influence in his court language and administration?",
+      "expected_answer": "He replaced Persian with the local Marathi language as the court vernacular and substituted Sanskrit political terminology.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 54,
+      "evidence_quote": "Shivaji sought to eliminate Mughal influence by making the local language of Marathi the vernacular of his court instead of Persian, the language of the Mughals."
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "What penalty did Portuguese forces impose after 1502 on Indian Ocean ships that sailed without a cartaz pass?",
+      "expected_answer": "Their cargoes were seized and the ships were sunk.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 58,
+      "evidence_quote": "Ships that did not carry the cartaz had their cargoes seized and were sunk."
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "In the Malacca Sultanate section, what was the role of a shahbandar in the port city?",
+      "expected_answer": "Each of the four foreign trader districts had a shahbandar assigned to supervise the foreign traders and collect taxes.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 62,
+      "evidence_quote": "Foreign traders were divided among four separate districts in the city, and each district was assigned an official known as the shahbandar to supervise them and collect taxes.",
+      "filter": {
+        "section": "2.2 The Malacca Sultanate"
+      }
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "question": "How did Muslim merchants react commercially after the Portuguese conquered Malacca in 1511?",
+      "expected_answer": "They avoided Portuguese-controlled Malacca and moved their trade to Johor or the Sultanate of Aceh in northern Sumatra.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 63,
+      "evidence_quote": "Unwilling to do business in Portuguese Malacca, many Muslim merchants avoided the port and conducted trade in either Johor or the Sultanate of Aceh on the northern coast of Sumatra."
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "question": "After Tokugawa Ieyasu banned Spanish and Portuguese visitors, which European traders remained allowed in Japan and under what restriction?",
+      "expected_answer": "The Dutch were still allowed to trade, but were confined to a walled compound on Dejima Island in Nagasaki harbor that they could not leave.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 70,
+      "evidence_quote": "However, to limit any harmful influence on their part, Dutch merchants were confined to a settlement on Dejima Island in the harbor of Nagasaki, in a walled compound they were not allowed to leave."
+    },
+    {
+      "id": "q16",
+      "split": "dev",
+      "type": "truc_tiep",
+      "question": "Who introduced the Korean alphabet hangul in 1446 and who was it intended to serve?",
+      "expected_answer": "King Sejong introduced hangul in 1446 so common people could use an alphabet matching Korean speech instead of Chinese characters.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 78,
+      "evidence_quote": "Hangul, which Sejong introduced in 1446, was intended to be used by common people instead of the Chinese characters with which the elite yangban wrote."
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "Why did Ancient Egyptians view the cosmos as orderly and balanced rather than adopting the pessimistic outlook of Mesopotamia?",
+      "expected_answer": "Unlike the unpredictable and destructive flooding of the Tigris and Euphrates, the Nile flooded predictably like clockwork and deposited fertile sediment, shaping the concept of Ma'at.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 101,
+      "evidence_quote": "Whereas the unpredictable flooding of the Tigris and Euphrates Rivers in southern Mesopotamia commonly brought destruction along with fresh alluvial deposits, the Nile’s summer flooding, predictable as clockwork, brought only welcome deposits of rich sediment."
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "truc_tiep",
+      "question": "In Volume 1, how many workers do modern archaeologists believe constructed Khufu's Great Pyramid, as opposed to Herodotus's claim?",
+      "expected_answer": "Around twenty thousand workers (rather than Herodotus's 100,000), and they were not enslaved.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 106,
+      "evidence_quote": "Modern archaeologists suspect that a much smaller but still substantial workforce of around twenty thousand was likely employed.",
+      "filter": {
+        "volume": "Volume 1"
+      }
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Since the Indus valley civilization had no coinage, how did merchants assess goods for barter and taxes?",
+      "expected_answer": "They used a standardized system of stone cubical weights.",
+      "gold_source_id": "wh_vol1",
+      "gold_page": 115,
+      "evidence_quote": "In the absence of coinage, they used a common system of stone cubical weights to assess goods in commercial exchanges that required barter."
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "truc_tiep",
+      "question": "Which island in the Banda/Moluccas region did the Dutch designate exclusively for growing cloves while destroying clove trees elsewhere?",
+      "expected_answer": "Ambon Island.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 66,
+      "evidence_quote": "The exception was Ambon Island, which the Dutch set aside to grow cloves. Clove trees on all other islands were destroyed, and anyone attempting to grow or sell cloves without permission was given the death penalty."
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "In the Exchange in East Asia section, what ecological harm did planting newly introduced American crops like corn cause in Ming China?",
+      "expected_answer": "Clearing hillsides to plant corn led to deforestation and loss of valuable topsoil.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 73,
+      "evidence_quote": "As hillsides were cleared to plant corn, for example, regions became deforested and lost their valuable topsoil.",
+      "filter": {
+        "section": "2.3 Exchange in East Asia"
+      }
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "What Vatican ruling caused the Qing emperor Kangxi to decree that complying Christian missionaries had to leave China?",
+      "expected_answer": "The Vatican ruled that all church services must be conducted in Latin and that Chinese Christians must abandon their ancestral rites.",
+      "gold_source_id": "wh_vol2",
+      "gold_page": 76,
+      "evidence_quote": "When the Vatican ruled that all church services must be conducted in Latin and that Chinese Christians must be ordered to abandon their ancestral rites, Kangxi decreed that missionaries who complied would have to leave China."
+    }
+  ]
+}
