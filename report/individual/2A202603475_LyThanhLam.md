@@ -1,7 +1,7 @@
 # Báo cáo cá nhân — Day 6: Data Ingestion Engineering
 
 - **Họ và tên:** Lý Thanh Lâm
-- **MSSV:** `2A202602475` · **Lớp:** `L3A`
+- **MSSV:** `2A202603475` · **Lớp:** `L3A`
 
 ## 1. Dữ liệu và pipeline
 

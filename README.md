@@ -57,4 +57,4 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
   python scripts/check_setup.py
   python -m src.run
   ```
-- **Kết quả & báo cáo**: Artifacts được lưu đồng bộ tại `results/` và `starter/results/`, log tổng hợp tại [artifacts/experiment_log.csv](artifacts/experiment_log.csv), và báo cáo cá nhân tại [report/individual/2A202602475_LyThanhLam.md](report/individual/2A202602475_LyThanhLam.md).
+- **Kết quả & báo cáo**: Artifacts được lưu đồng bộ tại `results/` và `starter/results/`, log tổng hợp tại [artifacts/experiment_log.csv](artifacts/experiment_log.csv), và báo cáo cá nhân tại [report/individual/2A202603475_LyThanhLam.md](report/individual/2A202603475_LyThanhLam.md).
